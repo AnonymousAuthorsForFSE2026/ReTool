@@ -1,0 +1,5126 @@
+{
+    "2.1.1": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "上午"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不举行",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "集会",
+                "operation": "is"
+            }
+        ]
+    },
+    "2.1.2": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "上午"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不举行",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "集会",
+                "operation": "is"
+            }
+        ]
+    },
+    "2.2.1": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "下午"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不进行",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "立会",
+                "operation": "is"
+            }
+        ]
+    },
+    "2.2.2": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "下午"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不进行",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "立会",
+                "operation": "is"
+            }
+        ]
+    },
+    "2.3.1": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "下午"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "时间",
+                "value": "从下午0点30分到3点30分",
+                "operation": "is"
+            }
+        ]
+    },
+    "2.3.2": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "下午"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "时间",
+                "value": "从下午0点30分到3点30分",
+                "operation": "is"
+            }
+        ]
+    },
+    "2.4.1": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "下午"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "时间",
+                "value": "从下午0点30分到2点",
+                "operation": "is"
+            }
+        ]
+    },
+    "2.4.2": {
+        "rule_class": [
+            "2"
+        ],
+        "constraints": [
+            {
+                "key": "时间",
+                "operation": "is",
+                "value": "下午"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "时间",
+                "value": "从下午0点30分到2点",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.1.1": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "以下各号所列的日期",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "周日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.1.2": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "以下各号所列的日期",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "周日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.2.1": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "国民节日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.2.2": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "国民节日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.3.1": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "国民的节日相当于星期日",
+                "operation": "is",
+                "value": "那之后不是离那一天最近的国民节日的日子"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "那之后不是离那一天最近的国民节日的日子",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.3.2": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "国民的节日相当于星期日",
+                "operation": "is",
+                "value": "那之后不是离那一天最近的国民节日的日子"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "那之后不是离那一天最近的国民节日的日子",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.4.1": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "前一天和第二天是国民节日的日子",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.4.2": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "前一天和第二天是国民节日的日子",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.5.1": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "周六",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.5.2": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "周六",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.6.1": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "年初3天",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.6.2": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "年初3天",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.7.1": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "12月31日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "3.7.2": {
+        "rule_class": [
+            "3"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "12月31日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "作为",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "休息日",
+                "operation": "is"
+            }
+        ]
+    },
+    "4.1.1": {
+        "rule_class": [
+            "4"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为有必要时"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "临时停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "全部或部分买卖委员会",
+                "operation": "is"
+            }
+        ]
+    },
+    "4.1.2": {
+        "rule_class": [
+            "4"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为有必要时"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "临时停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "全部或部分买卖委员会",
+                "operation": "is"
+            }
+        ]
+    },
+    "4.2.1": {
+        "rule_class": [
+            "4"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为有必要时"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "临时取消",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "全部或部分买卖委员会",
+                "operation": "is"
+            }
+        ]
+    },
+    "4.2.2": {
+        "rule_class": [
+            "4"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本交易所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为有必要时"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "临时取消",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "全部或部分买卖委员会",
+                "operation": "is"
+            }
+        ]
+    },
+    "9.1.1": {
+        "rule_class": [
+            "9"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券、可转换债券型新股认购权公司债券及可交换债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易类型",
+                "value": "当日结算交易",
+                "operation": "is"
+            }
+        ]
+    },
+    "9.1.2": {
+        "rule_class": [
+            "9"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券、可转换债券型新股认购权公司债券及可交换债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易类型",
+                "value": "当日结算交易",
+                "operation": "is"
+            }
+        ]
+    },
+    "9.2.1": {
+        "rule_class": [
+            "9"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券、可转换债券型新股认购权公司债券及可交换债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易类型",
+                "value": "普通交易",
+                "operation": "is"
+            }
+        ]
+    },
+    "9.2.2": {
+        "rule_class": [
+            "9"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券、可转换债券型新股认购权公司债券及可交换债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易类型",
+                "value": "普通交易",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.1.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "低价的卖价",
+                "value": "高价的卖价",
+                "operation": "优先于"
+            },
+            {
+                "key": "高价的买价",
+                "value": "低价的买价",
+                "operation": "优先于"
+            }
+        ]
+    },
+    "10.1.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "低价的卖价",
+                "value": "高价的卖价",
+                "operation": "优先于"
+            },
+            {
+                "key": "高价的买价",
+                "value": "低价的买价",
+                "operation": "优先于"
+            }
+        ]
+    },
+    "10.2.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "对于",
+                "value": "优先于",
+                "operation": "相同价格的呼值，在进行了呼值的时间的前后，之前进行的呼值"
+            },
+            {
+                "key": "约束",
+                "value": "之后进行的呼值",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.2.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "对于",
+                "value": "优先于",
+                "operation": "相同价格的呼值，在进行了呼值的时间的前后，之前进行的呼值"
+            },
+            {
+                "key": "约束",
+                "value": "之后进行的呼值",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.3.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "成行呼值",
+                "value": "除本规则第3.3.4条外其他申报",
+                "operation": "优先于"
+            }
+        ]
+    },
+    "10.3.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "成行呼值",
+                "value": "除本规则第3.3.4条外其他申报",
+                "operation": "优先于"
+            }
+        ]
+    },
+    "10.4.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "成行呼值相互间的顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "相同顺序",
+                "value": "相同价格",
+                "operation": "优先于"
+            }
+        ]
+    },
+    "10.4.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "叫价顺序"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "成行呼值相互间的顺序"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "相同顺序",
+                "value": "相同价格",
+                "operation": "优先于"
+            }
+        ]
+    },
+    "12.1.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会开始的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.1.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会开始的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.2.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会开始的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.2.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会开始的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.3.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会开始的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.3.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会开始的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.4.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "根据本所规定，对特定品种的交易被中断时的中断后最初的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.4.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "根据本所规定，对特定品种的交易被中断时的中断后最初的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.5.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "根据本所规定，对特定品种的交易被中断时的中断后最初的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.5.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "根据本所规定，对特定品种的交易被中断时的中断后最初的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.6.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "根据本所规定，对特定品种的交易被中断时的中断后最初的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.6.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "根据本所规定，对特定品种的交易被中断时的中断后最初的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.7.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会结束时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.7.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会结束时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.8.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会结束时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.8.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会结束时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.9.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会结束时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.9.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买卖委员会结束时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.10.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "除上述各号规定的内容外，根据本所规定的地方进行了气象显示时的约定价格及本所根据呼值的状况认为有必要时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.10.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "除上述各号规定的内容外，根据本所规定的地方进行了气象显示时的约定价格及本所根据呼值的状况认为有必要时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.11.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "除上述各号规定的内容外，根据本所规定的地方进行了气象显示时的约定价格及本所根据呼值的状况认为有必要时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.11.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "除上述各号规定的内容外，根据本所规定的地方进行了气象显示时的约定价格及本所根据呼值的状况认为有必要时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.12.1": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "除上述各号规定的内容外，根据本所规定的地方进行了气象显示时的约定价格及本所根据呼值的状况认为有必要时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "12.12.2": {
+        "rule_class": [
+            "12"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "个别竞争买卖"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "除了以下各号中规定的约定价格的情况以外"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "最低价格的卖呼值与最高价格的买呼值一致"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "卖呼值与买呼值的竞争"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "该价格"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "将该价格作为约定价格",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "按照第10条第2项中规定的呼值的顺序",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "在对应的呼值之间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成立买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "除上述各号规定的内容外，根据本所规定的地方进行了气象显示时的约定价格及本所根据呼值的状况认为有必要时的约定价格",
+                "operation": "is"
+            }
+        ]
+    },
+    "13.1.1": {
+        "rule_class": [
+            "13"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "因有过失的订单而买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "成立"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "结算"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "有可能混乱"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所规定的地方",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "取消",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "本所规定的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "13.1.2": {
+        "rule_class": [
+            "13"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "因有过失的订单而买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "成立"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "结算"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "有可能混乱"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所规定的地方",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "取消",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "本所规定的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.1.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "认购权"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "单位",
+                "value": "各债券的金额",
+                "operation": "is"
+            },
+            {
+                "key": "单位",
+                "value": "每百元人民币1分钱",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.1.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "认购权"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "单位",
+                "value": "各债券的金额",
+                "operation": "is"
+            },
+            {
+                "key": "单位",
+                "value": "每百元人民币1分钱",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.2.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "可转换公司债券型新股认购权公司债券及可交换公司债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "面值",
+                "value": "每百元人民币5分钱",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.2.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "可转换公司债券型新股认购权公司债券及可交换公司债券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "面值",
+                "value": "每百元人民币5分钱",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.3.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "超过",
+                "operation": "本所根据规则规定的价宽限度的价格",
+                "value": "is"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "不超过"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不以超过",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "本所认为特别需要而决定的价格幅度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "不申报",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.3.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "超过",
+                "operation": "本所根据规则规定的价宽限度的价格",
+                "value": "is"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "不超过"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不以超过",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "本所认为特别需要而决定的价格幅度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "不申报",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.4.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "关于债券的要价"
+            },
+            {
+                "key": "超过",
+                "operation": "本所根据规则规定的价宽限度的价格",
+                "value": "is"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "不超过"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不申报",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.4.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "关于债券的要价"
+            },
+            {
+                "key": "超过",
+                "operation": "本所根据规则规定的价宽限度的价格",
+                "value": "is"
+            },
+            {
+                "key": "约束",
+                "operation": "is",
+                "value": "不超过"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不申报",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.1.1": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "买卖单位",
+                "operation": "is",
+                "value": "1000万日元"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "买卖单位",
+                "value": "1000万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.1.2": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "买卖单位",
+                "operation": "is",
+                "value": "1000万日元"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "买卖单位",
+                "value": "1000万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.2.1": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "买卖单位",
+                "operation": "is",
+                "value": "100万日元"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "买卖单位",
+                "value": "100万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.2.2": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "买卖单位",
+                "operation": "is",
+                "value": "100万日元"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "买卖单位",
+                "value": "100万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.3.1": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "买卖单位",
+                "operation": "is",
+                "value": "10万日元"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "买卖单位",
+                "value": "10万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.3.2": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "买卖单位",
+                "operation": "is",
+                "value": "10万日元"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "买卖单位",
+                "value": "10万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.4.1": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "面值",
+                "value": "5万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.4.2": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "国债证券"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "交易品种",
+                "value": "债券",
+                "operation": "is"
+            },
+            {
+                "key": "面值",
+                "value": "5万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "16.1.1": {
+        "rule_class": [
+            "16"
+        ],
+        "constraints": [
+            {
+                "key": "基准价格",
+                "operation": "is",
+                "value": "日本证券业协会公布的买卖参考统计值"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "该协会未公布该买卖参考统计值"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作主体",
+                "value": "该交易所",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "每次都规定",
+                "operation": "is"
+            }
+        ]
+    },
+    "16.1.2": {
+        "rule_class": [
+            "16"
+        ],
+        "constraints": [
+            {
+                "key": "基准价格",
+                "operation": "is",
+                "value": "日本证券业协会公布的买卖参考统计值"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "该协会未公布该买卖参考统计值"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作主体",
+                "value": "该交易所",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "每次都规定",
+                "operation": "is"
+            }
+        ]
+    },
+    "16.2.1": {
+        "rule_class": [
+            "16"
+        ],
+        "constraints": [
+            {
+                "key": "基准价格",
+                "operation": "is",
+                "value": "日本证券业协会公布的买卖参考统计值"
+            },
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "该交易所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为根据该买卖参考统计值不合适"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "规定",
+                "operation": "is"
+            }
+        ]
+    },
+    "16.2.2": {
+        "rule_class": [
+            "16"
+        ],
+        "constraints": [
+            {
+                "key": "基准价格",
+                "operation": "is",
+                "value": "日本证券业协会公布的买卖参考统计值"
+            },
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "该交易所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为根据该买卖参考统计值不合适"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "规定",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.1.1": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "对债券或可转换债券型新股认购权公司债券进行抽奖偿还"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.1.2": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "对债券或可转换债券型新股认购权公司债券进行抽奖偿还"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.2.1": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在产生有可能对投资者的投资判断产生重大影响的信息的情况下"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "该信息的内容不明确"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.2.2": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在产生有可能对投资者的投资判断产生重大影响的信息的情况下"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "该信息的内容不明确"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.3.1": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在产生有可能对投资者的投资判断产生重大影响的信息的情况下"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.3.2": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在产生有可能对投资者的投资判断产生重大影响的信息的情况下"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.4.1": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在买卖系统的运转发生故障的情况下"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.4.2": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在买卖系统的运转发生故障的情况下"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.5.1": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在与有价证券的买卖有关的本交易所的设施发生故障的情况等下"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.5.2": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "在与有价证券的买卖有关的本交易所的设施发生故障的情况等下"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.6.1": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为有必要告知有可能进行买卖取消的情况"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    },
+    "29.6.2": {
+        "rule_class": [
+            "29"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "本所"
+            },
+            {
+                "key": "事件",
+                "operation": "is",
+                "value": "认为有必要告知有可能进行买卖取消的情况"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "停止"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "有价证券的买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "约束",
+                "value": "本所的规定",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "停止",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "有价证券的买卖",
+                "operation": "is"
+            }
+        ]
+    }
+}

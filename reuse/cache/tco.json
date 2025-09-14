@@ -1,0 +1,232 @@
+[
+    {
+        "id": "2.4.2",
+        "text": "证券采用竞价交易方式的，每个交易日的9:15至9:25为开盘集合竞价时间，9:30至11:30、13:00至14:57为连续竞价时间，14:57至15:00为收盘集合竞价时间。",
+        "label": "B-交易品种 I-交易品种 O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-key I-key I-key I-key I-key I-key I-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-key I-key I-key I-key I-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-key I-key I-key I-key I-key I-key I-key I-key O"
+    },
+    {
+        "id": "3.1.4",
+        "text": "投资者买入的证券，在交收前不得卖出，但实行回转交易的除外。",
+        "label": "B-操作人 I-操作人 I-操作人 B-操作 I-操作 O B-交易品种 I-交易品种 O O B-时间 I-时间 I-时间 B-结果 I-结果 B-操作 I-操作 O O O O B-value I-value I-value I-value O B-结果 I-结果 O"
+    },
+    {
+        "id": "3.1.5",
+        "text": "在本所上市交易的下列证券品种实行当日回转交易:（一）债券；（二）债券交易型开放式基金；（三）上市交易的货币市场基金；（四）黄金交易型开放式基金；（五）跨境交易型开放式基金和跨境上市开放式基金；（六）商品期货交易型开放式基金。B股实行次交易日起回转交易。",
+        "label": "B-系统 I-系统 I-系统 O O O O O O O B-key I-key I-key I-key O O B-value I-value I-value I-value I-value I-value O O O O B-交易品种 I-交易品种 O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O B-交易品种 I-交易品种 O O B-value I-value I-value I-value I-value I-value I-value I-value I-value O"
+    },
+    {
+        "id": "3.2.5",
+        "text": "投资者可以采用限价委托或市价委托的方式委托会员买卖证券。",
+        "label": "B-操作人 I-操作人 I-操作人 B-结果 I-结果 O O B-value I-value I-value I-value B-or B-value I-value I-value I-value O O O B-操作 I-操作 B-操作人 I-操作人 B-操作 I-操作 B-交易品种 I-交易品种 O"
+    },
+    {
+        "id": "3.2.6",
+        "text": "投资者可以撤销委托的未成交部分。",
+        "label": "B-操作人 I-操作人 I-操作人 B-结果 I-结果 B-操作 I-操作 B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 O"
+    },
+    {
+        "id": "3.2.7",
+        "text": "被撤销或失效的委托，会员应当在确认后及时向投资者返还相应的资金或证券。",
+        "label": "B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O B-操作人 I-操作人 O O O B-时间 I-时间 I-时间 O O O B-操作人 I-操作人 I-操作人 B-操作 I-操作 O O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 O"
+    },
+    {
+        "id": "3.3.1",
+        "text": "本所接受交易参与人竞价交易申报的时间为每个交易日9:15至9:25、9:30至11:30、13:00至15:00。每个交易日9:20至9:25、14:57至15:00，本所交易主机不接受参与竞价交易的撤销申报；在其他接受申报的时间内，未成交申报可以撤销。",
+        "label": "B-系统 I-系统 O O B-操作人 I-操作人 I-操作人 I-操作人 I-操作人 B-交易方式 I-交易方式 I-交易方式 I-交易方式 B-操作 I-操作 O B-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-系统 I-系统 O O O O B-结果 I-结果 I-结果 B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 B-操作 I-操作 I-操作 I-操作 O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 B-操作 I-操作 O"
+    },
+    {
+        "id": "3.3.2",
+        "text": "买卖申报和撤销申报经本所交易主机确认后方为有效。",
+        "label": "B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 O B-系统 I-系统 I-系统 I-系统 I-系统 I-系统 B-操作 I-操作 O O O B-结果 I-结果 O"
+    },
+    {
+        "id": "3.3.4",
+        "text": "对手方最优价格申报，以申报进入交易主机时集中申报簿中对手方队列的最优价格为其申报价格。本方最优价格申报，以申报进入交易主机时集中申报簿中本方队列的最优价格为其申报价格。最优五档即时成交剩余撤销申报，以对手方价格为成交价，与申报进入交易主机时集中申报簿中对手方最优五个价位的申报队列依次成交，未成交部分自动撤销。即时成交并撤销申报，以对手方价格为成交价，与申报进入交易主机时集中申报簿中对手方所有申报队列依次成交，未成交部分自动撤销。全额成交或撤销申报，以对手方价格为成交价，如与申报进入交易主机时集中申报簿中对手方所有申报队列依次成交能够使其完全成交的，则依次成交，否则申报全部自动撤销。",
+        "label": "B-value I-value I-value I-value I-value I-value I-value I-value I-value O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key I-key I-key O B-value I-value I-value I-value I-value I-value I-value I-value O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key I-key I-key O B-value I-value I-value I-value I-value I-value I-value I-value I-value I-value I-value I-value I-value I-value O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 I-结果 I-结果 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 I-结果 I-结果 O B-value I-value I-value I-value I-value I-value I-value I-value I-value O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 I-结果 I-结果 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 I-结果 I-结果 O B-value I-value I-value I-value B-or B-value I-value I-value I-value O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O O B-结果 I-结果 I-结果 I-结果 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 I-结果 I-结果 O"
+    },
+    {
+        "id": "3.3.5",
+        "text": "市价申报只适用于有价格涨跌幅限制证券连续竞价期间的交易。其他交易时间，交易主机不接受市价申报。",
+        "label": "B-value I-value I-value I-value O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 I-交易方式 B-时间 I-时间 O O O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-系统 I-系统 O O B-结果 I-结果 I-结果 B-value I-value I-value I-value O"
+    },
+    {
+        "id": "3.3.6",
+        "text": "本方最优价格申报进入交易主机时，集中申报簿中本方无申报的，申报自动撤销。其他市价申报类型进入交易主机时，集中申报簿中对手方无申报的，申报自动撤销。",
+        "label": "B-value I-value I-value I-value I-value I-value I-value I-value B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O B-操作部分 I-操作部分 B-操作 I-操作 I-操作 I-操作 O B-value I-value I-value I-value I-value I-value I-value I-value B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O B-操作部分 I-操作部分 B-操作 I-操作 I-操作 I-操作 O"
+    },
+    {
+        "id": "3.3.8",
+        "text": "通过竞价交易买入股票或基金的，申报数量应当为100股（份）或其整数倍。卖出股票或基金时，余额不足100股（份）部分，应当一次性申报卖出。",
+        "label": "O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 B-操作 I-操作 B-交易品种 I-交易品种 B-or B-交易品种 I-交易品种 O O B-key I-key I-key I-key O O O B-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 O B-操作 I-操作 B-交易品种 I-交易品种 B-or B-交易品种 I-交易品种 O O B-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 O O O B-操作 I-操作 I-操作 I-操作 I-操作 O O O"
+    },
+    {
+        "id": "3.3.9",
+        "text": "通过竞价交易买入债券以10张或其整数倍进行申报。买入、卖出债券质押式回购以10张或其整数倍进行申报。卖出债券时，余额不足10张部分，应当一次性申报卖出。债券以人民币100元面额为1张，债券质押式回购以100元标准券为1张。",
+        "label": "O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 B-操作 I-操作 B-交易品种 I-交易品种 O B-数量 I-数量 I-数量 B-or B-数量 I-数量 I-数量 I-数量 I-数量 O B-操作 I-操作 O B-操作 I-操作 I-操作 I-操作 I-操作 B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O B-数量 I-数量 I-数量 B-or B-数量 I-数量 I-数量 I-数量 I-数量 I-数量 B-操作 I-操作 O B-操作 I-操作 B-交易品种 I-交易品种 O O O O B-op I-op B-数量 I-数量 I-数量 I-数量 I-数量 O O O O B-操作 I-操作 I-操作 I-操作 I-操作 I-操作 O B-交易品种 I-交易品种 O O B-key I-key I-key I-key I-key I-key I-key I-key O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O B-数量 I-数量 I-数量 I-数量 I-数量 O O O O O O O"
+    },
+    {
+        "id": "3.3.10",
+        "text": "股票（基金）竞价交易单笔申报最大数量不得超过100万股（份），债券和债券质押式回购竞价交易单笔申报最大数量不得超过100万张。",
+        "label": "B-交易品种 I-交易品种 O B-交易品种 I-交易品种 O B-交易方式 I-交易方式 I-交易方式 I-交易方式 B-key I-key I-key I-key I-key I-key I-key I-key B-op I-op I-op I-op B-数量 I-数量 I-数量 I-数量 I-数量 I-数量 I-数量 O O B-交易品种 I-交易品种 O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 I-交易方式 B-key I-key I-key I-key I-key I-key I-key I-key B-op I-op I-op I-op B-数量 I-数量 I-数量 I-数量 I-数量 O"
+    },
+    {
+        "id": "3.3.12",
+        "text": "债券交易可以采取净价交易或全价交易的方式。",
+        "label": "B-交易品种 I-交易品种 O O B-结果 I-结果 O O B-value I-value I-value I-value B-or O B-value I-value I-value O B-key I-key O"
+    },
+    {
+        "id": "3.3.13",
+        "text": "A股交易的申报价格最小变动单位为0.01元人民币；基金、债券、债券质押式回购交易的申报价格最小变动单位为0.001元人民币；B股的申报价格最小变动单位为0.01港元。",
+        "label": "B-交易品种 I-交易品种 O O O B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-交易品种 I-交易品种 O B-交易品种 I-交易品种 O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O O O B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-交易品种 I-交易品种 O B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O"
+    },
+    {
+        "id": "3.3.15",
+        "text": "本所对股票、基金交易实行价格涨跌幅限制，涨跌幅限制比例为10%。",
+        "label": "B-系统 I-系统 O B-交易品种 I-交易品种 O B-交易品种 I-交易品种 O O O O B-value I-value I-value I-value I-value I-value I-value O B-key I-key I-key I-key I-key I-key I-key O B-value I-value O O"
+    },
+    {
+        "id": "3.3.16",
+        "text": "涨跌幅限制价格与前收盘价之差的绝对值低于价格最小变动单位的，以前收盘价增减一个价格最小变动单位为涨跌幅限制价格。",
+        "label": "B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key B-op I-op O B-value I-value B-价格 I-价格 I-价格 I-价格 I-价格 O O O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key I-key I-key I-key I-key O"
+    },
+    {
+        "id": "3.3.18",
+        "text": "申报当日有效。每笔竞价交易的申报不能一次全部成交时，未成交部分继续参加当日竞价，但第3.3.4条第（三）、（四）、（五）项市价申报类型除外。",
+        "label": "B-操作 I-操作 O O B-结果 I-结果 O O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 O O O O B-时间 I-时间 B-操作 I-操作 O O B-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 I-结合规则 B-key I-key I-key I-key I-key I-key B-结果 I-结果 O"
+    },
+    {
+        "id": "3.4.1",
+        "text": "证券竞价交易采用集合竞价和连续竞价两种方式。",
+        "label": "B-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-key I-key O"
+    },
+    {
+        "id": "3.4.2",
+        "text": "买卖有价格涨跌幅限制的证券，其有效竞价范围与涨跌幅限制范围一致，在价格涨跌幅限制以内的申报为有效申报，超过涨跌幅限制的申报为无效申报。",
+        "label": "B-操作 I-操作 B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O O B-结果 I-结果 B-key I-key I-key I-key B-value I-value I-value I-value I-value I-value I-value I-value O O O B-value I-value I-value I-value I-value I-value I-value I-value B-op I-op O B-操作 I-操作 O B-结果 I-结果 O O O B-op I-op B-value I-value I-value I-value I-value O B-操作 I-操作 O B-结果 I-结果 I-结果 I-结果 O"
+    },
+    {
+        "id": "3.4.3",
+        "text": "有效竞价范围计算结果按照四舍五入原则取至价格最小变动单位。无价格涨跌幅限制证券有效竞价范围上限或下限与最近成交价之差的绝对值低于价格最小变动单位的，以最近成交价增减一个该证券的价格最小变动单位为有效竞价范围。",
+        "label": "B-结果 I-结果 B-key I-key I-key I-key O O O O O O B-value I-value I-value I-value I-value I-value B-操作 I-操作 I-操作 I-操作 I-操作 I-操作 I-操作 I-操作 I-操作 I-操作 O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 B-结果 I-结果 B-key I-key I-key I-key I-key I-key B-or B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key B-op I-op B-value I-value I-value I-value I-value I-value I-value I-value O O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key I-key I-key I-key O"
+    },
+    {
+        "id": "3.5.2",
+        "text": "集合竞价时，成交价的确定原则为:（一）可实现最大成交量；（二）高于该价格的买入申报与低于该价格的卖出申报全部成交；（三）与该价格相同的买方或卖方至少有一方全部成交。集合竞价的所有交易以同一价格成交。",
+        "label": "B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-key I-key I-key O B-key I-key I-key I-key O O O O O O O O B-数量 I-数量 I-数量 I-数量 I-数量 O O O O B-op I-op B-价格 I-价格 I-价格 O B-操作 I-操作 I-操作 I-操作 O B-op I-op B-价格 I-价格 I-价格 O B-操作 I-操作 I-操作 I-操作 B-结果 I-结果 I-结果 I-结果 O O O O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-操作人 I-操作人 B-or B-操作人 I-操作人 B-结果 I-结果 I-结果 I-结果 I-结果 I-结果 I-结果 I-结果 I-结果 O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O O O O O B-value I-value I-value I-value O"
+    },
+    {
+        "id": "3.5.3",
+        "text": "连续竞价时，成交价的确定原则为:（一）最高买入申报与最低卖出申报价格相同，以该价格为成交价；（二）买入申报价格高于集中申报簿当时最低卖出申报价格时，以集中申报簿当时的最低卖出申报价格为成交价；（三）卖出申报价格低于集中申报簿当时最高买入申报价格时，以集中申报簿当时的最高买入申报价格为成交价。",
+        "label": "B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-key I-key I-key O O O O O O O O O O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O B-价格 I-价格 I-价格 O B-key I-key I-key O O O O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O O O O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O"
+    },
+    {
+        "id": "3.6.1",
+        "text": "在本所进行的证券交易符合以下条件的，可以采用大宗交易方式:（一）A股单笔交易数量不低于30万股，或者交易金额不低于200万元人民币；（二）B股单笔交易数量不低于3万股，或者交易金额不低于20万元港币；（三）基金单笔交易数量不低于200万份，或者交易金额不低于200万元人民币；（四）债券单笔交易数量不低于5千张，或者交易金额不低于50万元人民币。",
+        "label": "O B-系统 I-系统 O O O B-交易品种 I-交易品种 O O O O O O O O O O B-结果 I-结果 O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O O O B-交易品种 I-交易品种 B-key I-key I-key I-key I-key I-key B-op I-op I-op B-数量 I-数量 I-数量 I-数量 O B-or I-or B-key I-key I-key I-key B-op I-op I-op B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O O O O B-交易品种 I-交易品种 B-key I-key I-key I-key I-key I-key B-op I-op I-op B-数量 I-数量 I-数量 O B-or I-or I-or B-key I-key I-key B-op I-op I-op B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O O O O B-交易品种 I-交易品种 B-key I-key I-key I-key I-key I-key B-op I-op I-op B-数量 I-数量 I-数量 I-数量 I-数量 O B-or I-or B-key I-key I-key B-op I-op I-op I-op B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 B-key I-key I-key I-key I-key B-op I-op I-op I-op B-数量 I-数量 I-数量 O B-or I-or B-key I-key B-op I-op I-op I-op I-op B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O"
+    },
+    {
+        "id": "3.6.3",
+        "text": "采用协议大宗交易方式的，本所接受申报的时间为每个交易日9:15至11:30、13:00至15:30。采用盘后定价大宗交易方式的，本所接受申报的时间为每个交易日15:05至15:30。当天全天停牌、处于临时停牌期间或停牌至收市的证券，本所不接受其协议大宗交易申报。当天全天停牌或停牌至收市的证券，本所不接受其盘后定价大宗交易申报。",
+        "label": "O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O B-系统 I-系统 O O B-操作 I-操作 O B-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O B-系统 I-系统 B-操作 I-操作 I-操作 I-操作 B-key I-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O O O O O O B-系统 I-系统 B-结果 I-结果 I-结果 B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 B-操作 I-操作 O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O O B-交易品种 I-交易品种 O O B-系统 I-系统 B-结果 I-结果 I-结果 B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 B-操作 I-操作 O"
+    },
+    {
+        "id": "3.6.6",
+        "text": "意向申报不承担成交义务，意向申报指令可以撤销。成交申报可以撤销，但在对手方提交匹配的申报后不得撤销。本所对约定号、证券代码、买卖方向、价格、数量等各项要素均匹配的成交申报进行成交确认。市场所有参与者可以提交成交申报，按指定的价格与定价申报全部或部分成交，本所按时间优先顺序进行成交确认。定价申报的未成交部分可以撤销。",
+        "label": "O O B-操作 I-操作 O O O O O O O O B-操作部分 I-操作部分 I-操作部分 I-操作部分 O O B-结果 I-结果 B-操作 I-操作 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 B-操作 I-操作 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 B-操作 I-操作 O B-系统 I-系统 O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-操作 I-操作 O O O O O O O B-操作人 I-操作人 I-操作人 I-操作人 I-操作人 I-操作人 I-操作人 B-结果 I-结果 B-操作 I-操作 B-操作部分 I-操作部分 I-操作部分 I-操作部分 O O B-价格 I-价格 I-价格 I-价格 I-价格 O B-value I-value I-value I-value B-结果 I-结果 B-or B-结果 I-结果 I-结果 I-结果 O B-系统 I-系统 O B-value I-value I-value I-value O O O O O O O O O B-操作部分 I-操作部分 I-操作部分 I-操作部分 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 B-操作 I-操作 O"
+    },
+    {
+        "id": "3.6.7",
+        "text": "权益类证券协议大宗交易的成交确认时间为每个交易日15:00至15:30；债券协议大宗交易的成交确认时间为每个交易日9:15至11:30、13:00至15:30。",
+        "label": "B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 O B-key I-key I-key I-key I-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-key I-key I-key I-key I-key O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O"
+    },
+    {
+        "id": "3.6.8",
+        "text": "在接受申报的时间内，未成交申报可以撤销。",
+        "label": "B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 B-结果 I-结果 B-操作 I-操作 O"
+    },
+    {
+        "id": "3.8.1",
+        "text": "债券回购交易采取质押式回购交易等方式。",
+        "label": "B-交易品种 I-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 O O B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key O"
+    },
+    {
+        "id": "3.8.3",
+        "text": "债券回购交易申报中，融资方按“买入”方向进行申报，融券方按“卖出”方向进行申报。",
+        "label": "B-交易品种 I-交易品种 B-交易方式 I-交易方式 B-value I-value I-value I-value O O B-操作人 I-操作人 I-操作人 O O O O O O O O O B-操作 I-操作 O B-操作人 I-操作人 I-操作人 O O O O O O O O O B-操作 I-操作 O"
+    },
+    {
+        "id": "3.8.5",
+        "text": "债券质押式回购交易实行一次交易、两次结算。",
+        "label": "B-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-value I-value I-value I-value I-value I-value I-value I-value I-value O"
+    },
+    {
+        "id": "4.2.1",
+        "text": "证券的开盘价为当日该证券的第一笔成交价。",
+        "label": "B-交易品种 I-交易品种 O B-key I-key I-key O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O"
+    },
+    {
+        "id": "4.2.2",
+        "text": "证券的开盘价通过集合竞价方式产生，不能通过集合竞价产生的，以连续竞价方式产生。",
+        "label": "B-交易品种 I-交易品种 O B-价格 I-价格 I-价格 O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O O"
+    },
+    {
+        "id": "4.2.3",
+        "text": "除本规则另有规定外，证券的收盘价通过集合竞价的方式产生。收盘集合竞价不能产生收盘价或未进行收盘集合竞价的，以当日该证券最后一笔交易前一分钟所有交易的成交量加权平均价（含最后一笔交易）为收盘价。债券仅采用协议大宗交易方式的，以当日该债券所有交易的成交量加权平均价为收盘价。当日无成交的，以前收盘价为当日收盘价。",
+        "label": "O O O O O O O O O O B-交易品种 I-交易品种 O B-价格 I-价格 I-价格 O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O O O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O B-交易品种 I-交易品种 O O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O O B-价格 I-价格 I-价格 B-交易品种 I-交易品种 B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O B-价格 I-价格 I-价格 I-价格 O B-key I-key I-key I-key I-key O"
+    },
+    {
+        "id": "4.3.6",
+        "text": "停牌期间，可以申报，也可以撤销申报。",
+        "label": "B-时间 I-时间 I-时间 I-时间 O B-结果 I-结果 B-操作 I-操作 O O B-结果 I-结果 B-操作 I-操作 I-操作 I-操作 O"
+    },
+    {
+        "id": "4.4.3",
+        "text": "除权（息）日证券买卖，按除权（息）参考价作为计算涨跌幅度的基准，本所另有规定的除外。",
+        "label": "B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-交易品种 I-交易品种 B-操作 I-操作 O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O O B-key I-key I-key I-key I-key I-key I-key I-key I-key O B-系统 I-系统 O O O O O B-结果 I-结果 O"
+    },
+    {
+        "id": "4.5.4",
+        "text": "投资者当日通过竞价交易、大宗交易和盘后定价交易累计买入的单只风险警示股票，数量不得超过50万股，本所另有规定的除外。",
+        "label": "B-操作人 I-操作人 I-操作人 O O O O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O B-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-操作 I-操作 O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O B-key I-key B-op I-op I-op I-op B-数量 I-数量 I-数量 I-数量 O B-系统 I-系统 O O O O O O O O"
+    },
+    {
+        "id": "4.5.5",
+        "text": "主板风险警示股票价格涨跌幅限制比例为5%，退市整理股票价格涨跌幅限制比例为10%。创业板风险警示股票、退市整理股票价格涨跌幅限制比例为20%。",
+        "label": "B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 B-key I-key I-key I-key I-key I-key I-key I-key I-key O B-价格 I-价格 O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 B-key I-key I-key I-key I-key I-key I-key I-key I-key O B-价格 I-价格 I-价格 O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key O B-价格 I-价格 I-价格 O"
+    },
+    {
+        "id": "4.5.6",
+        "text": "股票进入退市整理期的首个交易日不实行价格涨跌幅限制，当日股票竞价交易出现下列情形的，本所可以对其实施盘中临时停牌措施:（一）盘中成交价较当日开盘价首次上涨或下跌达到或超过30%的；（二）盘中成交价较当日开盘价首次上涨或下跌达到或超过60%的。",
+        "label": "B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-结果 I-结果 I-结果 B-value I-value I-value I-value I-value I-value I-value O B-时间 I-时间 B-交易品种 I-交易品种 B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O O O O O O O B-系统 I-系统 B-结果 I-结果 O O O O B-value I-value I-value I-value I-value I-value I-value I-value O O O O B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key B-op I-op I-op I-op B-or B-op I-op I-op I-op B-or B-op I-op B-价格 I-价格 I-价格 O O O O O B-key I-key I-key I-key I-key I-key I-key I-key I-key I-key I-key B-op I-op I-op I-op B-or B-op I-op I-op I-op B-or B-op I-op B-价格 I-价格 I-价格 O O"
+    },
+    {
+        "id": "4.6.1",
+        "text": "指数熔断时间跨越11:30的，于13:00起继续计算。熔断时间跨越14:57的，于14:57恢复交易并进行收盘集合竞价，但14:45及之后触发的，指数熔断至15:00，当日不恢复交易。（二）沪深300指数较前一交易日收盘上涨、下跌达到或超过7%的，指数熔断至15:00，当日不恢复交易。14:57至15:00期间不实施指数熔断。",
+        "label": "B-交易品种 I-交易品种 B-key I-key I-key I-key I-key I-key B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O B-key I-key I-key I-key I-key I-key B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O O B-操作 I-操作 I-操作 I-操作 B-交易方式 I-交易方式 I-交易方式 I-交易方式 O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O O O O O O O B-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 I-交易品种 O O O B-op I-op I-op I-op I-op I-op I-op B-or O B-价格 I-价格 B-op I-op B-or B-op I-op O B-时间 I-时间 O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O O B-时间 I-时间 I-时间 O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O O O O O O O"
+    },
+    {
+        "id": "4.6.2",
+        "text": "本所交易日为股指期货合约交割日的，当日指数熔断时间跨越11:30的，于13:00起恢复交易；当日13:00至15:00期间，本所不实施指数熔断。",
+        "label": "B-系统 I-系统 O O O O B-value I-value I-value I-value I-value I-value I-value I-value I-value O O B-时间 I-时间 B-key I-key I-key I-key I-key I-key B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 B-操作 I-操作 I-操作 O O B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-系统 I-系统 O O O O O O O O"
+    },
+    {
+        "id": "4.6.4",
+        "text": "指数熔断期间，投资者可以申报，也可以撤销申报。恢复交易时，本所对已接受的申报进行集合竞价，再继续当日交易。",
+        "label": "B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O B-时间 I-时间 B-操作人 I-操作人 I-操作人 B-操作 I-操作 O O B-结果 I-结果 B-操作 I-操作 I-操作 I-操作 O O B-时间 I-时间 I-时间 I-时间 O B-系统 I-系统 I-系统 B-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 I-操作部分 O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O O B-操作 I-操作 B-操作部分 I-操作部分 I-操作部分 I-操作部分 O"
+    },
+    {
+        "id": "4.6.6",
+        "text": "指数熔断至15:00的，相关证券以当日该证券最后一笔交易前一分钟所有交易的成交量加权平均价（含最后一笔交易）为收盘价。当日无成交的，以前收盘价为当日收盘价。",
+        "label": "B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O O B-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 I-价格 O B-key I-key I-key O B-状态 I-状态 I-状态 I-状态 I-状态 I-状态 O O O B-价格 I-价格 I-价格 O B-key I-key I-key I-key I-key O"
+    },
+    {
+        "id": "4.6.7",
+        "text": "指数熔断至15:00的，相关证券当日不再进行大宗交易。",
+        "label": "B-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 I-时间 O O O O B-交易品种 I-交易品种 I-交易品种 B-时间 I-时间 I-时间 O B-交易方式 I-交易方式 I-交易方式 I-交易方式 O"
+    },
+    {
+        "id": "10.3",
+        "text": "经本所同意，会员可以通过其派驻交易大厅的交易员进行申报。",
+        "label": "O B-系统 I-系统 O O O B-操作人 I-操作人 B-结果 I-结果 O O O O O B-系统 I-系统 I-系统 I-系统 O O O O O O B-操作 I-操作 O"
+    }
+]

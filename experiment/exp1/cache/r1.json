@@ -1,0 +1,3336 @@
+{
+    "第八条.1": {
+        "rule_class": [
+            "第八条"
+        ],
+        "focus": [
+            "价格"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "申报价格最小变动单位",
+                "value": [
+                    "==",
+                    "0.001"
+                ],
+                "operation": "compute"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十二条.1": {
+        "rule_class": [
+            "第十二条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "方式",
+                "value": "限价申报",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十二条.2": {
+        "rule_class": [
+            "第十二条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "方式",
+                "value": "市价申报",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十二条.3": {
+        "rule_class": [
+            "第十二条"
+        ],
+        "focus": [
+            "时间"
+        ],
+        "constraints": [
+            {
+                "key": "开盘集合竞价时间",
+                "value": "{[9:15-9:25]}",
+                "operation": "in"
+            },
+            {
+                "key": "连续竞价时间",
+                "value": "{[9:30-11:30],[13:00-14:57]}",
+                "operation": "in"
+            },
+            {
+                "key": "收盘集合竞价时间",
+                "value": "{[14:57-15:00]}",
+                "operation": "in"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十三条.1": {
+        "rule_class": [
+            "第十三条"
+        ],
+        "focus": [
+            "数量"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "申报数量",
+                "value": [
+                    "%",
+                    "100",
+                    "==",
+                    "0"
+                ],
+                "operation": "compute"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十三条.2": {
+        "rule_class": [
+            "第十三条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作",
+                "value": "一次性申报卖出卖出",
+                "operation": "is"
+            },
+            {
+                "key": "申报数量",
+                "value": [
+                    "<",
+                    "100"
+                ],
+                "operation": "compute"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十三条.3": {
+        "rule_class": [
+            "第十三条"
+        ],
+        "focus": [
+            "数量"
+        ],
+        "constraints": [
+            {
+                "key": "数量",
+                "value": [
+                    "<=",
+                    "1000000"
+                ],
+                "operation": "compute"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十四条.1": {
+        "rule_class": [
+            "第十四条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "涨跌幅限制比例",
+                "value": "价格涨跌幅限制",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十五条.1": {
+        "rule_class": [
+            "第十五条"
+        ],
+        "focus": [
+            "价格"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "单笔交易数量",
+                "value": [
+                    ">=",
+                    "2000000"
+                ],
+                "operation": "compute"
+            },
+            {
+                "key": "交易方式",
+                "value": "大宗交易",
+                "operation": "is"
+            },
+            {
+                "key": "申报价格",
+                "value": [
+                    "==",
+                    "200"
+                ],
+                "operation": "compute"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十五条.2": {
+        "rule_class": [
+            "第十五条"
+        ],
+        "focus": [
+            "价格"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "交易金额",
+                "value": [
+                    ">=",
+                    "2000000"
+                ],
+                "operation": "compute"
+            },
+            {
+                "key": "交易方式",
+                "value": "大宗交易",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十六条.1": {
+        "rule_class": [
+            "第十六条"
+        ],
+        "focus": [
+            "时间"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "协议大宗交易",
+                "operation": "is"
+            },
+            {
+                "key": "接受申报时间",
+                "value": "{[9:15-11:30],[13:00-15:30]}",
+                "operation": "in"
+            },
+            {
+                "key": "成交确认时间",
+                "value": "{[15:00-15:30]}",
+                "operation": "in"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十六条.2": {
+        "rule_class": [
+            "第十六条"
+        ],
+        "focus": [
+            "时间"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "value": "额采用盘后定价大宗交易",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "{[15:05-15:30]}",
+                "operation": "in"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十七条.1": {
+        "rule_class": [
+            "第十七条"
+        ],
+        "focus": [
+            "价格"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "协议大宗交易申报",
+                "operation": "is"
+            },
+            {
+                "key": "申报价格范围",
+                "value": "前收盘价的上下10%",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十八条.1": {
+        "rule_class": [
+            "第十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "ETF、LOF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "和申赎",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十八条.2": {
+        "rule_class": [
+            "第十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "申赎开放式基金及",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "和申赎",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十八条.3": {
+        "rule_class": [
+            "第十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "封闭式基金",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第十九条.1": {
+        "rule_class": [
+            "第十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "基金管理人",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "认购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "提交申请",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第二十条.1": {
+        "rule_class": [
+            "第二十条"
+        ],
+        "focus": [
+            "时间"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "认购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "申报时间",
+                "value": "{[9:15-11:30],[13:00-15:00]}",
+                "operation": "in"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第二十五条.1": {
+        "rule_class": [
+            "第二十五条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "认购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "行申报",
+                "operation": "is"
+            },
+            {
+                "key": "申报数量",
+                "value": "1000份",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第二十五条.2": {
+        "rule_class": [
+            "第二十五条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "认购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "行申报",
+                "operation": "is"
+            },
+            {
+                "key": "申报数量",
+                "value": "其整数倍进",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第二十六条.1": {
+        "rule_class": [
+            "第二十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "基金份额募集期间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "重复认购",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "基金份额募集期间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "撤销",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "认购申报提交后",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第二十六条.2": {
+        "rule_class": [
+            "第二十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "基金份额募集期间",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "撤销",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "基金份额募集期间",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "不成功",
+                "operation": "is",
+                "else": "成功"
+            }
+        ]
+    },
+    "第二十七条.1": {
+        "rule_class": [
+            "第二十七条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "认购",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "约束",
+                "value": "现金",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第二十八条.1": {
+        "rule_class": [
+            "第二十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "基金",
+                "operation": "is"
+            },
+            {
+                "key": "申报数量",
+                "value": "最小申赎单位或者其整数倍",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第二十八条.2": {
+        "rule_class": [
+            "第二十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "基金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十条.1": {
+        "rule_class": [
+            "第三十条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "基金管理人",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "提供",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF申赎清单",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "每日开市前",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十二条.1": {
+        "rule_class": [
+            "第三十二条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "LOF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报",
+                "operation": "is"
+            },
+            {
+                "key": "申报单位",
+                "value": "金额",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十二条.2": {
+        "rule_class": [
+            "第三十二条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "value": "1份基金份额",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十三条.1": {
+        "rule_class": [
+            "第三十三条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作部分",
+                "value": "LOF份额的申赎申报",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "前撤销",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日15:00",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十四条.1": {
+        "rule_class": [
+            "第三十四条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "基金管理人或者其委托的登记结算机构",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "LOF份额申赎结果",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "确认",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.1": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "债券ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.2": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "黄金ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.3": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "、上市交易的货币市场基金份",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.4": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "、跨境ETF份",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.5": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "、跨境LOF份",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.6": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "交易方式",
+                "value": "竞价交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "和商品期货ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.7": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "value": "过大宗交易方",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "“大宗",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "”）的债券ETF份额、黄金ETF份额、上市交易的货币市场基金份额、跨境ETF份额、跨境LOF份额和商品期货ET",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "下简称“",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "资者当",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十六条.8": {
+        "rule_class": [
+            "第三十六条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "交易方式",
+                "value": "大宗交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "下简称“",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "其他基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "资者当",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十七条.1": {
+        "rule_class": [
+            "第三十七条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "单市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "单市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十七条.2": {
+        "rule_class": [
+            "第三十七条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价卖出",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "股票",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十七条.3": {
+        "rule_class": [
+            "第三十七条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗卖出",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "股票",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十七条.4": {
+        "rule_class": [
+            "第三十七条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗卖出",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "股票",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "购ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "申购ETF份额",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十八条.1": {
+        "rule_class": [
+            "第三十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "组合证券",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "单市场债券ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日大",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十八条.2": {
+        "rule_class": [
+            "第三十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十八条.3": {
+        "rule_class": [
+            "第三十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价卖出",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十八条.4": {
+        "rule_class": [
+            "第三十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗卖出",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额、竞",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "解除质押",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "申购ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日竞",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨市场债券ETF",
+                "operation": "is"
+            },
+            {
+                "key": "约束",
+                "value": "价申赎所跟踪指数成份证券包含银行间债券市场交易流通品种",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十八条.5": {
+        "rule_class": [
+            "第三十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗卖出",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报作",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "解除质押",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "申购ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日竞",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨市场债券ETF",
+                "operation": "is"
+            },
+            {
+                "key": "约束",
+                "value": "价申赎所跟踪指数成份证券包含银行间债券市场交易流通品种",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十八条.6": {
+        "rule_class": [
+            "第三十八条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗卖出",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报作",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "解除质押",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "日买入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日竞",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "不成功",
+                "operation": "is",
+                "else": "成功"
+            }
+        ]
+    },
+    "第三十九条.1": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "单市场债券ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.2": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨市场债券ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.3": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "、黄金E",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.4": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "F、商品期货ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.5": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "当日竞价买",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.6": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "当日竞价买",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.7": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "当日竞价买",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.8": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "现金",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "当日竞价买",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "入的ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "跨境ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "赎回",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.9": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "当日大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "在交收",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第三十九条.10": {
+        "rule_class": [
+            "第三十九条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "当日大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "在交收",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "银行间债券市场交易流通品种",
+                "operation": "is"
+            },
+            {
+                "key": "约束",
+                "value": "证券包含银行间",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "不成功",
+                "operation": "is",
+                "else": "成功"
+            }
+        ]
+    },
+    "第四十条.1": {
+        "rule_class": [
+            "第四十条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "跨市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十条.2": {
+        "rule_class": [
+            "第四十条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "跨市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购的E",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价卖出",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十条.3": {
+        "rule_class": [
+            "第四十条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "跨市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "跨市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购的E",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗卖出",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十条.4": {
+        "rule_class": [
+            "第四十条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "跨市场股票ETF",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "股票",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "申购ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "申购ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作人",
+                "value": "当日通过登",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "登记结算机构",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "申购的ETF",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "不成功",
+                "operation": "is",
+                "else": "成功"
+            }
+        ]
+    },
+    "第四十一条.1": {
+        "rule_class": [
+            "第四十一条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "上海黄金交易所现货实盘合约",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "黄金ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申报",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十一条.2": {
+        "rule_class": [
+            "第四十一条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "上海黄金交易所现货实盘合约",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "黄金ETF",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日申购",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十一条.3": {
+        "rule_class": [
+            "第四十一条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "对价",
+                "value": "上海黄金交易所现货实盘合约",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "黄金ETF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价卖出",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十二条.1": {
+        "rule_class": [
+            "第四十二条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "货币ETF时",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价买入",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "ETF份额",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "大宗买入",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十二条.2": {
+        "rule_class": [
+            "第四十二条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "货币ETF时",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日申",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十二条.3": {
+        "rule_class": [
+            "第四十二条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "货币ETF时",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "竞价卖出",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十三条.1": {
+        "rule_class": [
+            "第四十三条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "LOF",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "LOF份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "日买",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "次一交易日",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十三条.2": {
+        "rule_class": [
+            "第四十三条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "LOF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "交收前",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "不成功",
+                "operation": "is",
+                "else": "成功"
+            }
+        ]
+    },
+    "第四十三条.3": {
+        "rule_class": [
+            "第四十三条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申赎",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "LOF",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "交收前",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "成功",
+                "operation": "is",
+                "else": "不成功"
+            }
+        ]
+    },
+    "第四十四条.1": {
+        "rule_class": [
+            "第四十四条"
+        ],
+        "focus": [
+            "订单连续性操作"
+        ],
+        "constraints": [
+            {
+                "key": "操作人",
+                "value": "投资者",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "申购",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "挂牌申赎开放式基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "交易品种",
+                "value": "挂牌申赎开放式基金份额",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "当日",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "赎回",
+                "operation": "is"
+            },
+            {
+                "key": "时间",
+                "value": "交收前",
+                "operation": "is"
+            }
+        ],
+        "results": [
+            {
+                "key": "结果",
+                "value": "不成功",
+                "operation": "is",
+                "else": "成功"
+            }
+        ]
+    }
+}

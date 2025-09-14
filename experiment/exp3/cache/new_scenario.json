@@ -1,0 +1,4805 @@
+{
+    "10.1.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.1.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.2.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.2.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.3.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.3.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.4.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.4.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.5.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.5.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.6.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.6.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.7.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.7.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.8.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.8.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.9.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.9.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.10.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.10.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.11.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.11.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.12.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.12.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.13.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.13.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.14.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.14.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.15.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.15.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.16.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.16.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.17.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.17.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.18.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.18.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.19.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.19.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.20.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.20.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.21.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.21.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.22.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.22.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.23.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.23.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.24.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.24.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.25.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.25.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.26.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.26.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.27.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.27.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.28.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.28.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.29.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.29.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.30.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.30.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.31.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.31.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.32.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.32.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.33.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.33.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.34.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.34.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.35.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.35.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.36.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.36.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.37.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.37.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.38.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.38.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.39.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.39.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.40.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.40.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.41.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.41.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.42.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.42.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.43.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.43.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.44.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.44.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.45.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.45.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "竞争买卖"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "呕价"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "高价",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "买价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "优先",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "认购权"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "单位"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "面值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "每100日元1分钱"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "可转换",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "company债券型新股",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "面值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "每100日元5分钱",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.2.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.2.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.3.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.3.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.1.1": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖单位"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "面值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "1000万日元、100万日元或10万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.1.2": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖单位"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "面值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "1000万日元、100万日元或10万日元",
+                "operation": "is"
+            }
+        ]
+    }
+}

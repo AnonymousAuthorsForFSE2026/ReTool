@@ -1,0 +1,16 @@
+{
+    "dataset5": {
+        "testcase_reuse_rate_precision": 0.7339449541284404,
+        "testcase_reuse_rate_recall": 0.8,
+        "testcase_reuse_rate_f1": 0.7655502392344498,
+        "testcase_max_reuse_rate_precision": 0.7385321100917431,
+        "testcase_max_reuse_rate_recall": 0.805,
+        "testcase_max_reuse_rate_f1": 0.7703349282296651,
+        "scenario_reuse_rate_precision": 0.29545454545454547,
+        "scenario_reuse_rate_recall": 0.2805755395683453,
+        "scenario_reuse_rate_f1": 0.2878228782287823,
+        "scenario_max_reuse_rate_precision": 0.8106060606060606,
+        "scenario_max_reuse_rate_recall": 0.7697841726618705,
+        "scenario_max_reuse_rate_f1": 0.7896678966789666
+    }
+}

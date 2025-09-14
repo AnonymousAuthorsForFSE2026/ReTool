@@ -1,0 +1,1146 @@
+rule 2.4.2.1
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 每个交易日的9:15至9:25
+then 时间 is 开盘集合竞价时间 and 时间 is 9:15至9:25
+
+rule 2.4.2.2
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 每个交易日的9:15至9:25
+then 时间 is 连续竞价时间 and 时间 is 9:30至11:30、13:00至14:57
+
+rule 2.4.2.3
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 每个交易日的9:15至9:25
+then 时间 is 收盘集合竞价时间 and 时间 is 14:57至15:00
+
+rule 2.4.2.4
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易
+then 时间 is 开盘集合竞价时间 and 时间 is 9:15至9:25
+
+rule 2.4.2.5
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易
+then 时间 is 连续竞价时间 and 时间 is 9:30至11:30、13:00至15:00
+
+rule 2.4.2.6
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易
+then 时间 is 收盘集合竞价时间 and 时间 is 14:57至15:00
+
+rule 2.4.2.7
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 停牌
+then 时间 is 开盘集合竞价时间 and 时间 is 9:15至9:25
+
+rule 2.4.2.8
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 开盘集合竞价时间 and 时间 is 9:15至9:25
+
+rule 2.4.2.9
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 连续竞价时间 and 时间 is 9:30至11:30、13:00至15:00
+
+rule 2.4.2.10
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 收盘集合竞价时间 and 时间 is 14:57至15:00
+
+rule 2.4.2.11
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 连续竞价时间 and 时间 is 9:30至11:30、13:00至15:00
+
+rule 2.4.2.12
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 收盘集合竞价时间 and 时间 is 14:57至15:00
+
+rule 2.4.2.13
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 连续竞价时间 and 时间 is 9:30至11:30、13:00至15:00
+
+rule 2.4.2.14
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 收盘集合竞价时间 and 时间 is 14:57至15:00
+
+rule 2.4.2.15
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 连续竞价时间 and 时间 is 9:30至11:30、13:00至15:00
+
+rule 2.4.2.16
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 收盘集合竞价时间 and 时间 is 14:57至15:00
+
+rule 2.4.2.17
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then 时间 is 连续竞价时间 and 时间 is 9:30至11:30、13:00至15:00
+
+rule 2.4.2.18
+sourceId 2.4.2
+if 交易方式 is 竞价交易 and 操作部分 is 债券回购交易 and 操作 is 复牌
+then
+
+rule 3.1.5.1
+sourceId 3.1.5
+if 交易品种 is 债券 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.2
+sourceId 3.1.5
+if 交易品种 is 债券交易型开放式指数基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.3
+sourceId 3.1.5
+if 交易品种 is 交易型货币市场基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.4
+sourceId 3.1.5
+if 交易品种 is 黄金交易型开放式证券投资基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.5
+sourceId 3.1.5
+if 交易品种 is 跨境交易型开放式指数基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.6
+sourceId 3.1.5
+if 交易品种 is 跨境上市开放式基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.7
+sourceId 3.1.5
+if 交易品种 is 权证 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.8
+sourceId 3.1.5
+if 交易品种 is 前款所述的跨境交易型开放式指数基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.9
+sourceId 3.1.5
+if 交易品种 is 前款所述的跨境上市开放式基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.10
+sourceId 3.1.5
+if 交易品种 is 跨境交易型开放式指数基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.11
+sourceId 3.1.5
+if 交易品种 is 跨境上市开放式基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.12
+sourceId 3.1.5
+if 交易品种 is 黄金交易型开放式证券投资基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.13
+sourceId 3.1.5
+if 交易品种 is 商品期货交易型开放式指数基金 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.14
+sourceId 3.1.5
+if 交易品种 is 经证监会同意的其他品种 and 交易类型 is 当日回转交易
+then 操作 is 实行 and 操作部分 is 当日回转交易
+
+rule 3.1.5.15
+sourceId 3.1.5
+if 交易品种 is B股 and 交易类型 is 次交易日起回转交易
+then 操作 is 实行 and 操作部分 is 回转交易
+
+rule 3.2.5.1
+sourceId 3.2.5
+if 操作主体 is 投资者 and 操作 is 变更 and 操作部分 is 指定交易
+then 操作对象 is 已指定的会员 and 操作 is 提出 and 操作部分 is 撤销申请 and 操作主体 is 该会员 and 操作 is 申报 and 操作部分 is 撤销指令
+
+rule 3.2.5.2
+sourceId 3.2.5
+if 操作主体 is 投资者 and 操作 is 变更 and 操作部分 is 指定交易
+then 操作对象 is 已指定的会员 and 操作 is 不限制、阻挠或拖延 and 操作部分 is 其办理撤销指定手续
+
+rule 3.2.5.3
+sourceId 3.2.5
+if 操作主体 is 投资者 and 操作 is 变更 and 操作部分 is 指定交易
+then 操作对象 is 已指定的会员 and 操作 is 不限制、阻挠或拖延 and 操作部分 is 其办理撤销指定手续
+
+rule 3.3.6.1
+sourceId 3.3.6
+if 操作主体 is 客户
+then 操作 is 撤销 and 操作部分 is 委托的未成交部分 and 操作部分 is 未成交部分
+
+rule 3.3.6.2
+sourceId 3.3.6
+if 操作主体 is 客户
+then 操作 is 撤销 and 操作部分 is 委托的未成交部分 and 操作部分 is 未成交部分
+
+rule 3.3.7.1
+sourceId 3.3.7
+if 操作部分 is 被撤销和失效的委托 and 操作主体 is 会员
+then 时间 is 确认后 and 操作 is 返还 and 操作部分 is 相应的资金或证券
+
+rule 3.3.7.2
+sourceId 3.3.7
+if 操作部分 is 被撤销和失效的委托 and 操作主体 is 会员
+then 时间 is 确认后 and 操作 is 返还 and 操作部分 is 相应的证券
+
+rule 3.3.7.3
+sourceId 3.3.7
+if 操作部分 is 被撤销和失效的委托 and 操作主体 is 会员
+then 时间 is 确认后 and 操作 is 返还 and 操作部分 is 相应的资金
+
+rule 3.3.7.4
+sourceId 3.3.7
+if 操作部分 is 被撤销和失效的委托 and 操作主体 is 会员
+then 时间 is 确认后 and 操作 is 返还 and 操作部分 is 相应的证券
+
+rule 3.4.4.1
+sourceId 3.4.4
+if 操作主体 is 本所
+then 约束 is 市场需要 and 操作 is 接受 and 操作部分 is 下列方式 and 申报类型 is 市价申报 and 操作部分 is 最优5档即时成交剩余撤销申报 and 操作 is 逐次成交 and 操作部分 is 剩余未成交部分 and 操作 is 自动撤销
+
+rule 3.4.4.2
+sourceId 3.4.4
+if 操作主体 is 本所
+then 约束 is 市场需要 and 操作 is 接受 and 操作部分 is 最优5档即时成交剩余转限价申报 and 操作 is 逐次成交 and 操作部分 is 剩余未成交部分 and 操作 is 按本方申报最新成交价转为限价申报 and 操作 is 剩余未成交部分 and 操作 is 按本方最优报价转为限价申报 and 操作 is 操作 and 约束 is 撤销 and 操作 is 操作部分 and 约束 is 无成交的 and 约束 is 无本方申报 and 操作 is 撤销
+
+rule 3.4.4.3
+sourceId 3.4.4
+if 操作主体 is 本所
+then 约束 is 市场需要 and 操作 is 接受 and 操作部分 is 本所规定的其他方式 and 操作 is 操作 and 操作部分 is 申报 and 操作部分 is 操作 and 操作 is 撤销
+
+rule 3.4.5.1
+sourceId 3.4.5
+if 申报方式 is 市价申报
+then 操作 is 适用于 and 操作部分 is 连续竞价期间的交易
+
+rule 3.4.5.2
+sourceId 3.4.5
+if 操作主体 is 本所
+then 操作 is 另有规定 and 操作部分 is 除另有规定外 and 操作部分 is 有价格涨跌幅限制证券连续竞价期间的交易
+
+rule 3.4.5.3
+sourceId 3.4.5
+if 操作主体 is 本所
+then 操作 is 另有规定 and 操作部分 is 除另有规定外 and 操作部分 is 有价格涨跌幅限制证券连续竞价期间的交易
+
+rule 3.4.7.1
+sourceId 3.4.7
+if 交易方式 is 竞价交易 and 操作 is 买入 and 交易品种 is 股票
+then 申报数量 is 100股（份）或其整数倍
+
+rule 3.4.7.2
+sourceId 3.4.7
+if 交易方式 is 竞价交易 and 操作 is 买入 and 交易品种 is 基金
+then 申报数量 is 100股（份）或其整数倍
+
+rule 3.4.7.3
+sourceId 3.4.7
+if 交易方式 is 竞价交易 and 操作 is 买入 and 交易品种 is 权证
+then 申报数量 is 100股（份）或其整数倍
+
+rule 3.4.7.4
+sourceId 3.4.7
+if 交易方式 is 竞价交易 and 操作 is 卖出 and 交易品种 is 股票
+then 申报数量 is 余额不足100股（份）的部分 and 操作 is 一次性卖出
+
+rule 3.4.7.5
+sourceId 3.4.7
+if 交易方式 is 竞价交易 and 操作 is 卖出 and 交易品种 is 基金
+then 申报数量 is 余额不足100股（份）的部分 and 操作 is 一次性卖出
+
+rule 3.4.7.6
+sourceId 3.4.7
+if 交易方式 is 竞价交易 and 操作 is 卖出 and 交易品种 is 权证
+then 申报数量 is 余额不足100股（份）的部分 and 操作 is 一次性卖出
+
+rule 3.4.8.1
+sourceId 3.4.8
+if 交易类型 is 竞价交易 and 操作部分 is 债券交易的申报数量
+then 申报数量 is 1手或其整数倍
+
+rule 3.4.8.2
+sourceId 3.4.8
+if 交易类型 is 债券质押式回购交易 and 操作部分 is 申报数量
+then 申报数量 is 100手或其整数倍
+
+rule 3.4.8.3
+sourceId 3.4.8
+if 交易类型 is 债券买断式回购交易 and 操作部分 is 申报数量
+then 申报数量 is 1000手或其整数倍
+
+rule 3.4.8.4
+sourceId 3.4.8
+if 交易类型 is 债券交易 and 操作部分 is 申报数量
+then 申报数量 is 人民币1000元面值债券1手
+
+rule 3.4.8.5
+sourceId 3.4.8
+if 交易类型 is 债券买断式回购交易 and 操作部分 is 申报数量
+then 申报数量 is 人民币1000元标准券1手
+
+rule 3.4.8.6
+sourceId 3.4.8
+if 操作部分 is 债券质押式回购交易 and 交易类型 is 债券交易 and 操作部分 is 申报数量
+then 申报数量 is 人民币1000元面值债券1手
+
+rule 3.4.9.1
+sourceId 3.4.9
+if 交易品种 is 股票
+then 单笔申报最大数量 不超过 100万股（份）
+
+rule 3.4.9.2
+sourceId 3.4.9
+if 交易品种 is 基金
+then 单笔申报最大数量 不超过 100万股（份）
+
+rule 3.4.9.3
+sourceId 3.4.9
+if 交易品种 is 权证
+then 单笔申报最大数量 不超过 100万股（份）
+
+rule 3.4.9.4
+sourceId 3.4.9
+if 交易品种 is 债券交易
+then 单笔申报最大数量 不超过 10万手
+
+rule 3.4.9.5
+sourceId 3.4.9
+if 交易品种 is 债券质押式回购交易
+then 单笔申报最大数量 不超过 5万手
+
+rule 3.4.9.6
+sourceId 3.4.9
+if 交易品种 is 债券买断式回购交易
+then 单笔申报最大数量 不超过 5万手
+
+rule 3.4.9.7
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（份） and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.8
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 10万手 and 交易品种 is 证券
+
+rule 3.4.9.9
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 5万手 and 交易品种 is 证券
+
+rule 3.4.9.10
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（份） and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.11
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 10万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.12
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 5万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.13
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（份） and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.14
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 10万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.15
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 5万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.16
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（份） and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.17
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 10万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.18
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 5万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.19
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（份） and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.20
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 10万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.21
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 5万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.22
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（份） and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.23
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 10万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.24
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 5万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.25
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（份） and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.26
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 10万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.27
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 5万手 and 操作 is 调整 and 交易品种 is 证券
+
+rule 3.4.9.28
+sourceId 3.4.9
+if 操作主体 is 本所
+then 单笔申报最大数量 不超过 100万股（
+
+rule 3.4.11.1
+sourceId 3.4.11
+if 交易品种 is A股
+then 申报价格最小变动单位 is 0.01元人民币
+
+rule 3.4.11.2
+sourceId 3.4.11
+if 交易品种 is 债券交易
+then 申报价格最小变动单位 is 0.01元人民币
+
+rule 3.4.11.3
+sourceId 3.4.11
+if 交易品种 is 债券买断式回购交易
+then 申报价格最小变动单位 is 0.01元人民币
+
+rule 3.4.11.4
+sourceId 3.4.11
+if 交易品种 is 基金
+then 申报价格最小变动单位 is 0.001元人民币
+
+rule 3.4.11.5
+sourceId 3.4.11
+if 交易品种 is 权证
+then 申报价格最小变动单位 is 0.001元人民币
+
+rule 3.4.11.6
+sourceId 3.4.11
+if 交易品种 is 债券质押式回购交易
+then 申报价格最小变动单位 is 0.005元
+
+rule 3.4.14.1
+sourceId 3.4.14
+if 交易品种 is 买卖有价格涨跌幅限制的证券 and 操作部分 is 价格涨跌幅限制以内的申报
+then 状态 is 有效申报
+
+rule 3.4.14.2
+sourceId 3.4.14
+if 交易品种 is 买卖有价格涨跌幅限制的证券 and 操作部分 is 超过价格涨跌幅限制的申报
+then 状态 is 无效申报
+
+rule 3.4.14.3
+sourceId 3.4.14
+if 交易品种 is 买卖有价格涨跌幅限制的证券 and 操作部分 is 价格涨跌幅限制以内的申报
+then 状态 is 有效申报
+
+rule 3.4.14.4
+sourceId 3.4.14
+if 交易品种 is 买卖有价格涨跌幅限制的证券 and 操作部分 is 超过价格涨跌幅限制的申报
+then 状态 is 无效申报
+
+rule 3.4.15.1
+sourceId 3.4.15
+if 交易品种 is 股票 and 时间 is 开盘集合竞价阶段 and 操作部分 is 有效申报价格
+then 价格 符合 下列规定 and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.2
+sourceId 3.4.15
+if 交易品种 is 股票 and 时间 is 开盘集合竞价阶段 and 操作部分 is 有效申报价格
+then 价格 符合 下列规定 and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.3
+sourceId 3.4.15
+if 交易品种 is 基金 and 时间 is 开盘集合竞价阶段 and 操作部分 is 有效申报价格
+then 价格 符合 下列规定 and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.4
+sourceId 3.4.15
+if 交易品种 is 债券 and 时间 is 开盘集合竞价阶段 and 操作部分 is 有效申报价格
+then 价格 符合 下列规定 and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.5
+sourceId 3.4.15
+if 交易品种 is 股票 and 时间 is 收盘集合竞价阶段 and 操作部分 is 交易申报价格
+then 价格 不高于 最新成交价格的110% and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.6
+sourceId 3.4.15
+if 交易品种 is 股票 and 时间 is 收盘集合竞价阶段 and 操作部分 is 交易申报价格
+then 价格 不低于 最新成交价格的90% and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.7
+sourceId 3.4.15
+if 交易品种 is 债券 and 时间 is 收盘集合竞价阶段 and 操作部分 is 交易申报价格
+then 价格 不高于 最新成交价格的150% and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.8
+sourceId 3.4.15
+if 交易品种 is 债券 and 时间 is 收盘集合竞价阶段 and 操作部分 is 交易申报价格
+then 价格 不低于 最新成交价格的70% and 操作 is 申报 and 操作部分 is 价格
+
+rule 3.4.15.9
+sourceId 3.4.15
+if 交易品种 is 无 and 时间 is 当日 and 操作部分 is 无价格涨跌幅限制
+then 最新成交价格 视为 前收盘价格 and 操作 is 交易 and 操作部分 is 申报价格
+
+rule 3.4.15.10
+sourceId 3.4.15
+if 交易品种 is 债券 and 时间 is 当日 and 操作部分 is 无价格涨跌幅限制
+then 最新成交价格 视为 前收盘价格 and 操作 is 交易 and 操作部分 is 申报价格
+
+rule 3.4.16.1
+sourceId 3.4.16
+if 交易品种 is 股票 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 有效申报价格
+then 价格 符合 最新成交价格的110% and 不低于 is 最新成交价格的90%
+
+rule 3.4.16.2
+sourceId 3.4.16
+if 交易品种 is 股票 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 有效申报价格
+then 价格 符合 不高于 and 约束 is 即时揭示的最低卖出价格的110% and 不低于 is 即时揭示的最高买入价格的90%
+
+rule 3.4.16.3
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 有效申报价格
+then 价格 符合 不高于 and 约束 is 即时揭示的最低卖出价格的110% and 不低于 is 即时揭示的最高买入价格的90%
+
+rule 3.4.16.4
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 有效申报价格
+then 价格 符合 不高于 and 约束 is 上述最高申报价与最低申报价格平均数的130% and 不低于 is 该平均数的70%
+
+rule 3.4.16.5
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最低卖出价格
+then 价格 符合 上述最高申报价与最低申报价格平均数的130% and 不低于 is 该平均数的70%
+
+rule 3.4.16.6
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最高买入价格
+then 价格 符合 不高于 and 约束 is 上述最高申报价与最低申报价格平均数的130% and 不低于 is 该平均数的70%
+
+rule 3.4.16.7
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最高买入价格
+then 价格 符合 上述最高申报价与最低申报价格平均数的130% and 不低于 is 该平均数的70%
+
+rule 3.4.16.8
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最低卖出价格
+then 价格 符合 不低于 and 约束 is 上述最高申报价与最低申报价格平均数的70% and 不低于 is 该平均数的130%
+
+rule 3.4.16.9
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最低卖出价格
+then 价格 符合 不低于 and 约束 is 上述最高申报价与最低申报价格平均数的70% and 不低于 is 该平均数的130%
+
+rule 3.4.16.10
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最高买入价格
+then 价格 符合 不高于 and 约束 is 上述最高申报价与最低申报价格平均数的130% and 不低于 is 该平均数的70%
+
+rule 3.4.16.11
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最低卖出价格
+then 价格 符合 不低于 and 约束 is 上述最高申报价与最低申报价格平均数的130% and 不低于 is 该平均数的70%
+
+rule 3.4.16.12
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最高买入价格
+then 价格 符合 不高于 and 约束 is 上述最高申报价与最低申报价格平均数的130% and 不低于 is 该平均数的70%
+
+rule 3.4.16.13
+sourceId 3.4.16
+if 交易品种 is 基金、债券、债券回购 and 时间 is 连续竞价阶段 and 事件 is 停牌 and 操作部分 is 即时揭示的最低卖出价格
+then 价格 is 符合
+
+rule 3.4.17.1
+sourceId 3.4.17
+if 申报类型 is 竞价交易 and 时间 is 当日 and 申报方式 is 申报 and 操作部分 is 每笔参与竞价交易的申报
+then 状态 is 未成交 and 操作 is 继续参加 and 时间 is 当日 and 操作部分 is 当日竞价 and 操作部分 is 本规则另有规定的除外的其他部分
+
+rule 3.4.17.2
+sourceId 3.4.17
+if 申报类型 is 竞价交易 and 时间 is 当日 and 申报方式 is 申报 and 操作部分 is 每笔参与竞价交易的申报
+then 状态 is 未成交 and 操作 is 继续参加 and 时间 is 当日 and 操作部分 is 当日竞价 and 操作部分 is 本规则另有规定的除外的其他部分
+
+rule 3.4.17.3
+sourceId 3.4.17
+if 申报类型 is 竞价交易 and 时间 is 当日 and 申报方式 is 申报 and 操作部分 is 每笔参与竞价交易的申报
+then 状态 is 未成交 and 操作 is 继续参加 and 时间 is 当日 and 操作部分 is 当日竞价 and 操作部分 is 本规则另有规定的除外的其他部分
+
+rule 3.5.2.1
+sourceId 3.5.2
+if 时间 is 当前竞价交易阶段 and 状态 is 未成交 and 操作部分 is 买卖申报
+then 操作 is 自动进入 and 时间 is 当日后续竞价交易阶段
+
+rule 3.5.2.2
+sourceId 3.5.2
+if 时间 is 当前竞价交易阶段 and 状态 is 未成交 and 操作部分 is 买卖申报
+then 操作 is 自动进入 and 时间 is 当日后续竞价交易阶段
+
+rule 3.5.2.3
+sourceId 3.5.2
+if 时间 is 当前竞价交易阶段 and 状态 is 未成交 and 操作部分 is 买卖申报
+then 操作 is 自动进入 and 时间 is 当日后续竞价交易阶段
+
+rule 3.6.2.1
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.2
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.3
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.4
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.5
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.6
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.7
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.8
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.9
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有两个以上使未成交量最小的申报价格符合上述条件的,其中间价为成交价格
+then
+
+rule 3.6.2.10
+sourceId 3.6.2
+if 交易方式 is 集合竞价 and 操作 is 成交 and 价格 确定原则 is and 约束 is 可实现最大成交量的价格 and 约束 is 高于该价格的买入申报与低于该价格的卖出申报全部成交的价格 and 约束 is 与该价格相同的买方或卖方至少有一方全部成交的价格 and 约束 is 仍有
+
+rule 3.6.3.1
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同
+then 成交价格 is 该价格 and 约束 is 最高买入申报价格与最低卖出申报价格相同
+
+rule 3.6.3.2
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最低卖出申报价格
+
+rule 3.6.3.3
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.4
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最低卖出申报价格
+
+rule 3.6.3.5
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.6
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格
+then 成交价格 is 即时揭示的最低卖出申报价格
+
+rule 3.6.3.7
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格高于即时揭示的最高买入申报价格 and 约束 is 买入申报价格低于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.8
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.9
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.10
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格高于即时揭示的最高买入申报价格 and 约束 is 买入申报价格低于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.11
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格高于即时揭示的最高买入申报价格 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.12
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格 and 约束 is 买入申报价格低于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.13
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.14
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格高于即时揭示的最高买入申报价格 and 约束 is 买入申报价格低于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.15
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格高于即时揭示的最高买入申报价格 and 约束 is 买入申报价格高于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.16
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报价格相同 and 约束 is 卖出申报价格低于即时揭示的最高买入申报价格 and 约束 is 买入申报价格低于即时揭示的最低卖出申报价格
+then 成交价格 is 即时揭示的最高买入申报价格
+
+rule 3.6.3.17
+sourceId 3.6.3
+if 时间 is 连续竞价时 and 约束 is 最高买入申报价格与最低卖出申报
+
+rule 3.6.4.1
+sourceId 3.6.4
+if 操作部分 is 按成交原则达成的价格 and 操作 is 不在 and 约束 is 最小价格变动单位范围内 and 操作部分 is 价格
+then 约束 is 四舍五入原则 and 操作 is 取至 and 操作部分 is 相应的最小价格变动单位 and 操作 is 价格
+
+rule 3.6.4.2
+sourceId 3.6.4
+if 操作部分 is 按成交原则达成的价格 and 操作 is 不在 and 约束 is 最小价格变动单位范围内 and 操作部分 is 价格
+then 约束 is 四舍五入原则 and 操作 is 取至 and 操作部分 is 相应的最小价格变动单位 and 操作 is 价格
+
+rule 3.6.4.3
+sourceId 3.6.4
+if 操作部分 is 按成交原则达成的价格 and 操作 is 不在 and 约束 is 最小价格变动单位范围内 and 操作部分 is 价格
+then 约束 is 四舍五入原则 and 操作 is 取至 and 操作部分 is 相应的最小价格变动单位 and 操作 is 价格
+
+rule 3.6.4.4
+sourceId 3.6.4
+if 操作部分 is 按成交原则达成的价格 and 操作 is 不在 and 约束 is 最小价格变动单位范围内 and 操作部分 is 价格
+then 约束 is 四舍五入原则 and 操作 is 取至 and 操作部分 is 相应的最小价格变动单位 and 操作 is 价格
+
+rule 3.7.3.1
+sourceId 3.7.3
+if 操作主体 is 本所
+then 接受时间 is 每个交易日 and 时间 is 9:30至11:30、13:00至15:30 and 操作 is 接受 and 交易品种 is 大宗交易
+
+rule 3.7.3.2
+sourceId 3.7.3
+if 操作主体 is 本所
+then 接受时间 is 每个交易日 and 时间 is 9:30至11:30、13:00至15:30 and 操作 is 接受 and 交易品种 is 成交申报
+
+rule 3.7.3.3
+sourceId 3.7.3
+if 操作主体 is 本所
+then 接受时间 is 每个交易日 and 时间 is 9:30至11:30、13:00至15:30 and 操作 is 接受 and 交易品种 is 固定价格申报
+
+rule 3.7.3.4
+sourceId 3.7.3
+if 操作主体 is 本所 and 操作部分 is 交易日的15:00至15:30 and 事件 is 仍处于停牌状态 and 交易品种 is 证券
+then 操作 is 不再接受 and 操作部分 is 其大宗交易的申报
+
+rule 3.7.3.5
+sourceId 3.7.3
+if 操作主体 is 本所 and 操作部分 is 交易日的15:00至15:30 and 事件 is 停牌
+then 操作 is 不再接受 and 操作部分 is 其大宗交易的申报
+
+rule 3.7.4.1
+sourceId 3.7.4
+if 时间 is 每个交易日9:30至15:30时段 and 操作部分 is 确认的成交
+then 时间 is 当日 and 操作 is 清算交收
+
+rule 3.7.4.2
+sourceId 3.7.4
+if 时间 is 每个交易日16:00至17:00时段 and 操作部分 is 确认的成交
+then 时间 is 次一交易日 and 操作 is 清算交收
+
+rule 3.7.4.3
+sourceId 3.7.4
+if 时间 is 每个交易日9:30至15:30时段 and 操作部分 is 确认的成交
+then 时间 is 当日 and 操作 is 交收
+
+rule 3.7.4.4
+sourceId 3.7.4
+if 时间 is 每个交易日16:00至17:00时段 and 操作部分 is 确认的成交
+then 时间 is 次一交易日 and 操作 is 交收
+
+rule 3.7.6.1
+sourceId 3.7.6
+if 操作部分 is 意向申报 and 操作主体 is 申报方 and 操作 is 至少与 and 操作主体 is 一个接受意向申报的会员 and 操作 is 成交申报
+then 操作 is 接受 and 操作部分 is 意向申报 and 操作主体 is 申报方
+
+rule 3.7.6.2
+sourceId 3.7.6
+if 操作部分 is 意向申报 and 操作主体 is 申报方 and 操作 is 至少与 and 操作主体 is 一个接受意向申报的会员 and 操作 is 成交申报
+then 操作 is 接受 and 操作部分 is 意向申报 and 操作主体 is 申报方
+
+rule 3.7.6.3
+sourceId 3.7.6
+if 操作部分 is 意向申报 and 操作主体 is 申报方 and 操作 is 至少与 and 操作主体 is 一个接受意向申报的会员 and 操作 is 成交申报
+then 操作 is 接受 and 操作部分 is 意向申报 and 操作主体 is 申报方
+
+rule 3.7.10.1
+sourceId 3.7.10
+if 交易品种 is 有价格涨跌幅证券 and 时间 is 当日 and 操作主体 is 买方和卖方
+then 价格涨跌幅 is 当日价格涨跌幅限制范围内 and 操作 is 确定 and 交易品种 is 有价格涨跌幅证券
+
+rule 3.7.10.2
+sourceId 3.7.10
+if 交易品种 is 无价格涨跌幅证券 and 时间 is 当日 and 操作主体 is 买卖双方
+then 价格涨跌幅 is 在前收盘价格的上下30%或当日已成交的最高、最低价格之间 and 操作 is 自行协商确定 and 操作部分 is 每个交易日16：00至17：00接受的申报
+
+rule 3.7.10.3
+sourceId 3.7.10
+if 交易品种 is 无价格涨跌幅证券 and 时间 is 当日 and 操作主体 is 买卖双方
+then 价格涨跌幅 is 在前收盘价格的上下30%或当日已成交的最高、最低价格之间 and 操作 is 自行协商确定 and 操作部分 is 当日其他交易时段接受的涨跌幅价格
+
+rule 3.8.3.1
+sourceId 3.8.3
+if 交易品种 is 债券回购
+then 到期日 is 非交易日 and 债券回购交易的期限 is 按日历时间计算 and 操作 is 顺延至 and 操作部分 is 下一个交易日 and 操作 is 结算
+
+rule 3.8.3.2
+sourceId 3.8.3
+if 交易品种 is 债券回购
+then 到期日 is 非交易日 and 债券回购交易的期限 is 按日历时间计算 and 操作 is 顺延至 and 操作部分 is 下一个交易日 and 操作 is 结算
+
+rule 3.8.3.3
+sourceId 3.8.3
+if 交易品种 is 债券回购
+then 到期日 is 非交易日 and 债券回购交易的期限 is 按日历时间计算 and 操作 is 顺延至 and 操作部分 is 下一个交易日 and 操作 is 结算
+
+rule 3.8.3.4
+sourceId 3.8.3
+if 交易品种 is 债券回购 and 到期日 is 非交易日
+then 债券回购交易的期限 is 按日历时间计算 and 操作 is 顺延至 and 操作部分 is 下一个交易日 and 操作 is 结算
+
+rule 4.1.2.1
+sourceId 4.1.2
+if 交易品种 is 证券
+then 开盘价 is 集合竞价方式产生 and 开盘价 is 不能产生 and 操作 is 产生 and 交易方式 is 连续竞价 and 操作部分 is 开盘价
+
+rule 4.1.2.2
+sourceId 4.1.2
+if 交易品种 is 证券
+then 开盘价 is 连续竞价方式产生 and 开盘价 is 不能产生 and 操作 is 产生 and 交易方式 is 连续竞价 and 操作部分 is 开盘价
+
+rule 4.1.3.1
+sourceId 4.1.3
+if
+then 收盘价 is 收盘集合竞价不能产生收盘价或未进行收盘集合竞价的 and 交易品种 is 证券 and 操作 is 产生
+
+rule 4.1.3.2
+sourceId 4.1.3
+if 交易品种 is 基金 and 事件 is 收盘集合竞价不能产生收盘价或未进行收盘集合竞价的 and 操作 is 产生
+then
+
+rule 4.1.3.3
+sourceId 4.1.3
+if 交易品种 is 债券 and 事件 is 收盘集合竞价不能产生收盘价或未进行收盘集合竞价的 and 操作 is 产生
+then
+
+rule 4.1.3.4
+sourceId 4.1.3
+if 交易品种 is 债券买断式回购 and 事件 is 收盘集合竞价不能产生收盘价或未进行收盘集合竞价的 and 操作 is 产生
+then
+
+rule 4.1.3.5
+sourceId 4.1.3
+if 交易品种 is 债券质押式回购 and 事件 is 收盘集合竞价不能产生收盘价或未进行收盘集合竞价的 and 操作 is 产生
+then
+
+rule 4.1.3.6
+sourceId 4.1.3
+if 时间 is 当日 and 事件 is 最后一笔交易前一小时所有交易的成交量加权平均价（含最后一笔交易） and 操作 is 产生
+then
+
+rule 4.1.3.7
+sourceId 4.1.3
+if
+then 收盘价 is 当日该证券最后一笔交易前一分钟所有交易的成交量加权平均价（含最后一笔交易）
+
+rule 4.1.3.8
+sourceId 4.1.3
+if 时间 is 当日 and 事件 is 最后一笔交易前一小时所有交易的成交量加权平均价（含最后一笔交易） and 事件 is 当日无成交
+then 收盘价 is 前收盘价
+
+rule 4.2.5.1
+sourceId 4.2.5
+if 时间 is 证券开市期间 and 事件 is 停牌 and 操作部分 is 停牌前的申报
+then 时间 is 当日复牌后 and 操作 is 参加 and 操作部分 is 当日该证券复牌后的交易
+
+rule 4.2.5.2
+sourceId 4.2.5
+if 时间 is 停牌期间 and 操作 is 申报
+then 操作 is 继续申报
+
+rule 4.2.5.3
+sourceId 4.2.5
+if 时间 is 停牌期间 and 操作 is 申报
+then 操作 is 撤销申报
+
+rule 4.2.5.4
+sourceId 4.2.5
+if 时间 is 复牌时 and 操作部分 is 已接受的申报
+then 操作 is 集合竞价 and 操作部分 is 集合竞价虚拟参考价格、虚拟匹配量、虚拟未匹配量
+
+rule 4.2.5.5
+sourceId 4.2.5
+if 时间 is 证券停牌时间跨越14:57 and 事件 is 须于当日复牌 and 时间 is 14:57 and 操作 is 复牌
+then 时间 is 当日复牌后 and 操作 is 进入 and 操作部分 is 后续交易阶段
+
+rule 4.2.5.6
+sourceId 4.2.5
+if 时间 is 证券停牌时间跨越14:57 and 事件 is 须于当日复牌 and 时间 is 14:57
+then 时间 is 当日复牌后 and 操作 is 进入 and 操作部分 is 后续交易阶段
+
+rule 4.3.3.1
+sourceId 4.3.3
+if 时间 is 除权（息）日 and 交易品种 is 证券 and 操作部分 is 买卖
+then 计算涨跌幅度的基准 is 除权（息）参考价格
+
+rule 4.3.3.2
+sourceId 4.3.3
+if 时间 is 除权（息）日 and 交易品种 is 证券 and 操作 is 买卖
+then 计算涨跌幅度的基准 is 除权（息）参考价格
+
+rule 4.3.3.3
+sourceId 4.3.3
+if 时间 is 除权（息）日 and 交易品种 is 证券 and 操作 is 买卖
+then 计算涨跌幅度的基准 is 除权（息）参考价格
+
+rule 4.4.2.1
+sourceId 4.4.2
+if 操作 is 采取减少面值方式 and 债券持仓数量 is 保持不变
+then 操作 is 相应减少 and 债券面值 按照 发行面值×未偿还比例 and 约束 is 进行计算 and 面值计算公式 is 减少后的面值=发行面值×未偿还比例 and 债券计价单位 is 减少后的面值所对应债券的价格 and 债券质押式回购 is 每百元资金到期年收益 and 债券买断式回购 is 减少后的面值所对应债券的到期购回价格
+
+rule 4.4.2.2
+sourceId 4.4.2
+if 操作 is 采取减少面值方式 and 债券持仓数量 is 保持不变
+then 操作 is 相应减少 and 债券交易单位 is 手 and 申报数量 is 1手或其整数倍
+
+rule 4.4.2.3
+sourceId 4.4.2
+if rule is 3
+then if 操作 is and 约束 is 采取减少面值方式 and 债券持仓数量 is 保持不变
+
+rule 4.4.2.4
+sourceId 4.4.2
+if rule is 4
+then if 操作 is and 约束 is 采取减少面值方式 and 债券持仓数量 is 保持不变
+
+rule 4.4.2.5
+sourceId 4.4.2
+if or relation is and 约束 is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177
+
+rule 4.4.3.1
+sourceId 4.4.3
+if 操作 is 采取减少持仓方式 and 债券品种 is 债券
+then 债券面值 is 保持不变 and 债券持仓数量 is 相应减少 and 债券持仓数量 根據 已偿还比例 and 约束 is 相应减少
+
+rule 4.4.3.2
+sourceId 4.4.3
+if 操作 is 采取减少持仓方式 and 债券品种 is 债券
+then 债券面值 is 保持不变 and 债券持仓数量 is 相应减少 and 债券持仓数量 根據 已偿还比例 and 约束 is 相应减少 and 债券持仓数量 is 存在不足1手债券
+
+rule 4.4.3.3
+sourceId 4.4.3
+if rule is 3
+then if 操作 is and 约束 is 采取减少持仓方式 and 债券品种 is 债券
+
+rule 4.4.3.4
+sourceId 4.4.3
+if or relation is and 约束 is 1,2,3
+then
+
+rule 4.4.3.5
+sourceId 4.4.3
+if 操作 is 采取减少持仓方式 and 债券品种 is 债券
+then 债券面值 is 保持不变 and 债券持仓数量 is 相应减少 and 债券持仓数量 根據 已偿还比例 and 约束 is 相应减少 and 债券持仓数量 is 存在不足1手债券 and 操作 is 偿还
+
+rule 4.5.4.1
+sourceId 4.5.4
+if 事件 is 指数熔断 and 时间 is 15:00前 and 事件 is 结束 and 约束 is 指数熔断持续至15:00结束 and 操作主体 is 本所交易主机
+then 时间 is 15:00前 and 操作 is 继续申报
+
+rule 4.5.4.2
+sourceId 4.5.4
+if 事件 is 指数熔断 and 时间 is 15:00前 and 事件 is 结束 and 约束 is 指数熔断持续至15:00结束 and 操作主体 is 本所交易主机
+then 时间 is 15:00前 and 操作 is 撤销申报
+
+rule 4.5.4.3
+sourceId 4.5.4
+if 事件 is 指数熔断 and 时间 is 15:00前 and 事件 is 结束 and 约束 is 指数熔断持续至15:00结束 and 操作主体 is 本所交易主机
+then 时间 is 15:00前 and 操作 is 接受 and 操作部分 is 撤销申报
+
+rule 4.5.4.4
+sourceId 4.5.4
+if 事件 is 指数熔断 and 时间 is 15:00前 and 事件 is 结束 and 约束 is 指数熔断持续至15:00结束 and 操作主体 is 本所交易主机
+then 时间 is 15:00前 and 操作 is 接受 and 操作部分 is 申报
+
+rule 4.5.5.1
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 集合竞价撮合成交 and 操作部分 is 已接受的申报
+
+rule 4.5.5.2
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 进入 and 操作部分 is 连续竞价交易阶段
+
+rule 4.5.5.3
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.4
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.5
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.6
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.7
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.8
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.9
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.10
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.11
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.12
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.13
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.14
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至 and 操作部分 is 15:00前 and 操作 is 结束 and 操作 is 不再进行 and 操作部分 is 集中竞价撮合成交
+
+rule 4.5.5.15
+sourceId 4.5.5
+if 事件 is 指数熔断 and 时间 is 15:00前 and 操作主体 is 本所交易主机
+then 操作 is 持续至
+
+rule 4.5.7.1
+sourceId 4.5.7
+if 事件 is 指数熔断 and 时间 is 15:00 and 交易品种 is 相应证券品种
+then 操作 is 不进行 and 交易方式 is 大宗交易
+
+rule 4.5.7.2
+sourceId 4.5.7
+if 事件 is 指数熔断 and 时间 is 15:00 and 交易品种 is 相应证券品种
+then 操作 is 不进行 and 交易方式 is 大宗交易
+
+rule 4.5.7.3
+sourceId 4.5.7
+if 事件 is 指数熔断 and 时间 is 15:00 and 交易品种 is 相应证券品种
+then 操作 is 不进行 and 交易方式 is 大宗交易
+
+rule 5.2.3.1
+sourceId 5.2.3
+if 时间 is 首次上市证券上市首日 and 交易品种 is 证券
+then 即时行情显示的前收盘价格 is 发行价 and 操作部分 is 本所另有规定
+
+rule 5.2.3.2
+sourceId 5.2.3
+if 时间 is 首次上市证券上市首日 and 交易品种 is 证券
+then 即时行情显示的前收盘价格 is 发行价 and 操作 is 除另有规定

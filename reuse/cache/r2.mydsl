@@ -1,0 +1,663 @@
+rule 第七条.1.1
+sourceId 第七条
+if 交易品种 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 交易方式 is 竞价交易
+or relation:第七条.1,第七条.2
+
+rule 第七条.1.2
+sourceId 第七条
+if 交易品种 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 交易方式 is 竞价交易
+or relation:第七条.1,第七条.2
+
+rule 第七条.2.1
+sourceId 第七条
+if 交易品种 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 交易方式 is 大宗交易
+or relation:第七条.1,第七条.2
+
+rule 第七条.2.2
+sourceId 第七条
+if 交易品种 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 交易方式 is 大宗交易
+or relation:第七条.1,第七条.2
+
+rule 第八条.1.1
+sourceId 第八条
+if 交易品种 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报价格最小变动单位 is 0.001元
+
+rule 第八条.1.2
+sourceId 第八条
+if 交易品种 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 申报价格最小变动单位 is 0.001元
+
+rule 第九条.1.1
+sourceId 第九条
+if 交易品种 is 基金份额 and 时间 is 上市首日 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 即时行情显示的前收盘价 is 基金管理人最近公布并向本所提供的基金份额净值或者参考净值（四舍五入至0.001元） and 操作部分 is 其准确性 and 操作主体 is 基金管理人 and 操作 is 负责
+
+rule 第九条.1.2
+sourceId 第九条
+if 交易品种 is 基金份额 and 时间 is 上市首日 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 即时行情显示的前收盘价 is 基金管理人最近公布并向本所提供的基金份额净值或者参考净值（四舍五入至0.001元） and 操作部分 is 其准确性 and 操作主体 is 基金管理人 and 操作 is 负责
+
+rule 第十一条.1.1
+sourceId 第十一条
+if 交易品种 is 分级基金 and 操作 is 发生份额折算 and 操作部分 is 折算完成后 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 即时行情显示的前收盘价 is 基金管理人最近公布并向本所提供的基金份额净值或者参考净值（四舍五入至0.001元） and 操作主体 is 基金管理人 and 操作 is 负责 and 操作部分 is 其准确性
+
+rule 第十一条.1.2
+sourceId 第十一条
+if 交易品种 is 分级基金 and 操作 is 发生份额折算 and 操作部分 is 折算完成后 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 次一交易日 and 即时行情显示的前收盘价 is 基金管理人最近公布并向本所提供的基金份额净值或者参考净值（四舍五入至0.001元） and 操作主体 is 基金管理人 and 操作 is 负责 and 操作部分 is 其准确性
+
+rule 第十二条.1.1
+sourceId 第十二条
+if 交易品种 is 基金份额 and 交易方式 is 竞价交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报方式 is 限价申报
+
+rule 第十二条.1.2
+sourceId 第十二条
+if 交易品种 is 基金份额 and 交易方式 is 竞价交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 申报方式 is 限价申报
+
+rule 第十二条.2.1
+sourceId 第十二条
+if 交易品种 is 基金份额 and 交易方式 is 竞价交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报方式 is 市价申报
+
+rule 第十二条.2.2
+sourceId 第十二条
+if 交易品种 is 基金份额 and 交易方式 is 竞价交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 申报方式 is 市价申报
+
+rule 第十二条.3.1
+sourceId 第十二条
+if 时间 is 每个交易日9︰15至9︰25 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 时间 is 开盘集合竞价时间
+
+rule 第十二条.3.2
+sourceId 第十二条
+if 时间 is 每个交易日9︰15至9︰25 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出 and 交易品种 is 证券
+then 时间 is 开盘集合竞价时间
+
+rule 第十二条.4.1
+sourceId 第十二条
+if 时间 is 每个交易日9︰30至11︰30、13︰00至14︰57 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 时间 is 连续竞价时间
+
+rule 第十二条.4.2
+sourceId 第十二条
+if 时间 is 每个交易日9︰30至11︰30、13︰00至14︰57 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出 and 交易品种 is 证券
+then 时间 is 连续竞价时间
+
+rule 第十二条.5.1
+sourceId 第十二条
+if 时间 is 每个交易日14︰57至15︰00 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 时间 is 收盘集合竞价时间
+
+rule 第十二条.5.2
+sourceId 第十二条
+if 时间 is 每个交易日14︰57至15︰00 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出 and 交易品种 is 证券
+then 时间 is 收盘集合竞价时间
+
+rule 第十三条.1
+sourceId 第十三条
+if 交易方式 is 竞价交易 and 操作 is 买入 and 交易品种 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报数量 is 100份或者其整数倍
+
+rule 第十三条.2
+sourceId 第十三条
+if 交易方式 is 竞价交易 and 操作 is 卖出 and 交易品种 is 基金份额 and 余额 不足 100份 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 操作 is 一次性申报卖出
+
+rule 第十三条.3.1
+sourceId 第十三条
+if 交易方式 is 竞价交易 and 交易品种 is 基金份额 and 操作部分 is 竞价交易单笔申报最大数量 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报数量 不超过 100万份
+
+rule 第十三条.3.2
+sourceId 第十三条
+if 交易方式 is 竞价交易 and 交易品种 is 基金份额 and 操作部分 is 竞价交易单笔申报最大数量 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 申报数量 不超过 100万份
+
+rule 第十四条.1.1
+sourceId 第十四条
+if 交易品种 is 基金份额 and 交易方式 is 竞价交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 操作 is 实行 and 操作部分 is 价格涨跌幅限制 and 涨跌幅限制比例 is 10%
+
+rule 第十四条.1.2
+sourceId 第十四条
+if 交易品种 is 基金份额 and 交易方式 is 竞价交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 操作 is 实行 and 操作部分 is 价格涨跌幅限制 and 涨跌幅限制比例 is 10%
+
+rule 第十五条.1.1
+sourceId 第十五条
+if 交易品种 is 基金份额 and 单笔交易数量 不低于 200万份 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 交易方式 is 大宗交易
+
+rule 第十五条.1.2
+sourceId 第十五条
+if 交易品种 is 基金份额 and 单笔交易数量 不低于 200万份 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 交易方式 is 大宗交易
+
+rule 第十五条.2.1
+sourceId 第十五条
+if 交易品种 is 基金份额 and 交易金额 不低于 200万元人民币 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 交易方式 is 大宗交易
+
+rule 第十五条.2.2
+sourceId 第十五条
+if 交易品种 is 基金份额 and 交易金额 不低于 200万元人民币 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 交易方式 is 大宗交易
+
+rule 第十六条.1.1
+sourceId 第十六条
+if 交易品种 is 基金份额 and 交易方式 is 协议大宗交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 操作主体 is 本所 and 接受申报时间 is 每个交易日9︰15至11︰30、13︰00至15︰30 and 成交确认时间 is 每个交易日15︰00至15︰30
+
+rule 第十六条.1.2
+sourceId 第十六条
+if 交易品种 is 基金份额 and 交易方式 is 协议大宗交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 操作主体 is 本所 and 接受申报时间 is 每个交易日9︰15至11︰30、13︰00至15︰30 and 成交确认时间 is 每个交易日15︰00至15︰30
+
+rule 第十六条.2.1
+sourceId 第十六条
+if 交易品种 is 基金份额 and 交易方式 is 盘后定价大宗交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 操作主体 is 本所 and 接受申报时间 is 每个交易日15：05至15：30
+
+rule 第十六条.2.2
+sourceId 第十六条
+if 交易品种 is 基金份额 and 交易方式 is 盘后定价大宗交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 操作主体 is 本所 and 接受申报时间 is 每个交易日15：05至15：30
+
+rule 第十七条.1.1
+sourceId 第十七条
+if 交易品种 is 基金份额 and 交易方式 is 协议大宗交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报价格范围 is 前收盘价的上下10%
+
+rule 第十七条.1.2
+sourceId 第十七条
+if 交易品种 is 基金份额 and 交易方式 is 协议大宗交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 申报价格范围 is 前收盘价的上下10%
+
+rule 第十九条.1
+sourceId 第十九条
+if 操作主体 is 基金管理人 and 操作 is 办理 and 操作部分 is 基金份额认购和申赎业务 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 操作对象 is 本所 and 操作 is 提交 and 操作部分 is 申请 and 关联操作主体 is 本所 and 操作 is 签署 and 操作部分 is 协议
+
+rule 第二十条.1
+sourceId 第二十条
+if 交易品种 is 基金份额 and 操作部分 is 认购 and 操作主体 is 客户 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报时间 is 每个交易日9︰15至11︰30、13︰00至15︰00
+
+rule 第二十条.2.1
+sourceId 第二十条
+if 交易品种 is 基金份额 and 操作部分 is 申赎 and 操作主体 is 客户 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 申报时间 is 每个交易日9︰15至11︰30、13︰00至15︰00
+
+rule 第二十条.2.2
+sourceId 第二十条
+if 交易品种 is 基金份额 and 操作部分 is 申赎 and 操作主体 is 客户 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 申报时间 is 每个交易日9︰15至11︰30、13︰00至15︰00
+
+rule 第二十六条.1
+sourceId 第二十六条
+if 操作主体 is 投资者 and 时间 is 基金份额募集期间 and 交易市场 is 深圳证券交易所 and 交易品种 is 证券
+then 操作 is 重复认购 and 交易方向 is 买入
+
+rule 第二十六条.2
+sourceId 第二十六条
+if 操作部分 is 认购申报 and 操作 is 提交 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 操作 is 不撤销
+
+rule 第二十七条.1
+sourceId 第二十七条
+if 操作主体 is 投资者 and 操作对象 is 本所 and 操作 is 认购 and 操作部分 is 基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 约束 is 现金
+
+rule 第二十八条.1.1
+sourceId 第二十八条
+if 交易品种 is ETF份额 and 操作部分 is 申赎 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 约束 is 基金合同和基金招募说明书规定的最小申赎单位 and 操作 is 申报
+or relation:第二十八条.1,第二十八条.2
+
+rule 第二十八条.1.2
+sourceId 第二十八条
+if 交易品种 is ETF份额 and 操作部分 is 申赎 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 约束 is 基金合同和基金招募说明书规定的最小申赎单位 and 操作 is 申报
+or relation:第二十八条.1,第二十八条.2
+
+rule 第二十八条.2.1
+sourceId 第二十八条
+if 交易品种 is ETF份额 and 操作部分 is 申赎 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 约束 is 基金合同和基金招募说明书规定的最小申赎单位 and 操作部分 is 其整数倍 and 操作 is 申报
+or relation:第二十八条.1,第二十八条.2
+
+rule 第二十八条.2.2
+sourceId 第二十八条
+if 交易品种 is ETF份额 and 操作部分 is 申赎 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 约束 is 基金合同和基金招募说明书规定的最小申赎单位 and 操作部分 is 其整数倍 and 操作 is 申报
+or relation:第二十八条.1,第二十八条.2
+
+rule 第三十二条.1
+sourceId 第三十二条
+if 基金品种 is LOF份额 and 操作部分 is 申购 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 约束 is 金额 and 操作 is 申报 and 申报单位 is 1元
+
+rule 第三十二条.2
+sourceId 第三十二条
+if 基金品种 is LOF份额 and 操作部分 is 赎回 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 约束 is 份额 and 操作 is 申报 and 申报单位 is 1份基金份额
+
+rule 第三十二条.3.1
+sourceId 第三十二条
+if 基金品种 is LOF份额 and 操作部分 is 申赎申报数量 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 操作 is 符合 and 操作部分 is 基金合同和基金招募说明书的相关规定
+
+rule 第三十二条.3.2
+sourceId 第三十二条
+if 基金品种 is LOF份额 and 操作部分 is 申赎申报数量 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 操作 is 符合 and 操作部分 is 基金合同和基金招募说明书的相关规定
+
+rule 第三十三条.1.1
+sourceId 第三十三条
+if 基金品种 is LOF份额 and 操作部分 is 申赎申报 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日15︰00前 and 操作 is 撤销
+
+rule 第三十三条.1.2
+sourceId 第三十三条
+if 基金品种 is LOF份额 and 操作部分 is 申赎申报 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 当日15︰00前 and 操作 is 撤销
+
+rule 第三十四条.1.1
+sourceId 第三十四条
+if 操作主体 is 基金管理人 and 基金品种 is LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 操作 is 负责 and 操作部分 is 申赎结果的确认
+
+rule 第三十四条.1.2
+sourceId 第三十四条
+if 操作主体 is 基金管理人 and 基金品种 is LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 操作 is 负责 and 操作部分 is 申赎结果的确认
+
+rule 第三十四条.2.1
+sourceId 第三十四条
+if 操作主体 is 其委托的登记结算机构 and 基金品种 is LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 操作 is 负责 and 操作部分 is 申赎结果的确认
+
+rule 第三十四条.2.2
+sourceId 第三十四条
+if 操作主体 is 其委托的登记结算机构 and 基金品种 is LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 操作 is 负责 and 操作部分 is 申赎结果的确认
+
+rule 第三十六条.1
+sourceId 第三十六条
+if 操作主体 is 投资者 and 时间 is 当日 and 交易方式 is 竞价交易 and 操作 is 买入 and 基金品种 is 债券ETF份额、黄金ETF份额、上市交易的货币市场基金份额、跨境ETF份额、跨境LOF份额和商品期货ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 卖出 and 交易方向 is 卖出
+
+rule 第三十六条.2
+sourceId 第三十六条
+if 操作主体 is 投资者 and 时间 is 当日 and 交易方式 is 大宗交易 and 操作 is 买入 and 基金品种 is 债券ETF份额、黄金ETF份额、上市交易的货币市场基金份额、跨境ETF份额、跨境LOF份额和商品期货ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 交易方式 is 大宗交易 and 操作 is 卖出 and 交易方向 is 卖出
+
+rule 第三十六条.3
+sourceId 第三十六条
+if 操作主体 is 投资者 and 时间 is 当日 and 交易方式 is 大宗交易 and 操作 is 买入 and 基金品种 is 债券ETF份额、黄金ETF份额、上市交易的货币市场基金份额、跨境ETF份额、跨境LOF份额和商品期货ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 交易方式 is 大宗交易 and 操作 is 卖出 and 交易方向 is 卖出
+
+rule 第三十六条.4
+sourceId 第三十六条
+if 操作主体 is 投资者 and 时间 is 当日 and 交易方式 is 大宗交易 and 操作 is 买入 and 基金品种 is 债券ETF份额、黄金ETF份额、上市交易的货币市场基金份额、跨境ETF份额、跨境LOF份额和商品期货ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 交易方式 is 竞价交易 and 操作 is 卖出 and 交易方向 is 卖出
+
+rule 第三十六条.5
+sourceId 第三十六条
+if 操作主体 is 投资者 and 时间 is 当日 and 交易方式 is 大宗交易 and 操作 is 买入 and 基金品种 is 跨境ETF份额和跨境LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 所跟踪指数成份证券或投资标的实施当日 and 操作 is 回转交易
+
+rule 第三十六条.6
+sourceId 第三十六条
+if 操作主体 is 投资者 and 时间 is 当日 and 交易方式 is 竞价交易 and 操作 is 买入 and 基金品种 is 其他基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 卖出 and 交易方向 is 卖出
+
+rule 第三十七条.1
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作部分 is 竞价买入的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.2
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作部分 is 大宗买入的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.3
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作 is 申购 and 操作部分 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 竞价卖出 and 交易方向 is 卖出
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.4
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作 is 申购 and 操作部分 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.5
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作 is 申购 and 操作部分 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 大宗卖出 and 交易方向 is 卖出
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.6
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作部分 is 赎回得到的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 当日 and 操作 is 竞价卖出
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.7
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作部分 is 赎回得到的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 次一交易日 and 操作 is 申购ETF份额
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.8
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作部分 is 赎回得到的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 次一交易日 and 操作 is 大宗卖出
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.9
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作部分 is 竞价买入的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 用于申购ETF份额 and 交易方向 is 买入
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十七条.10
+sourceId 第三十七条
+if 操作主体 is 投资者 and 基金品种 is 单市场股票ETF and 时间 is 当日 and 操作部分 is 大宗买入的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 用于申购ETF份额 and 交易方向 is 买入
+or relation:第三十七条.1,第三十七条.2,第三十七条.3,第三十七条.4,第三十七条.5,第三十七条.6,第三十七条.7,第三十七条.8,第三十七条.9,第三十七条.10
+
+rule 第三十八条.1
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 竞价买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.2
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 大宗买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.3
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 申购 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.4
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 申购 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 竞价卖出 and 交易方向 is 卖出
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.5
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 申购 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 大宗卖出 and 交易方向 is 卖出
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.6
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 赎回 and 操作部分 is 得到的债券 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 当日 and 操作 is 用于申购 and 操作部分 is ETF份额
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.7
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 赎回 and 操作部分 is 得到的债券 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 当日 and 操作 is 竞价卖出
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.8
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 赎回 and 操作部分 is 得到的债券 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 次一交易日 and 操作 is 大宗卖出
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.9
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 竞价买入 and 操作部分 is 得到的债券 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 用于申购 and 操作部分 is ETF份额 and 交易方向 is 买入
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十八条.10
+sourceId 第三十八条
+if 操作主体 is 投资者 and 对价 is 组合证券 and 基金品种 is ETF and 时间 is 当日 and 操作 is 大宗买入 and 操作部分 is 得到的债券 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 用于申购 and 操作部分 is ETF份额 and 交易方向 is 买入
+or relation:第三十八条.1,第三十八条.2,第三十八条.3,第三十八条.4,第三十八条.5,第三十八条.6,第三十八条.7,第三十八条.8,第三十八条.9,第三十八条.10
+
+rule 第三十九条.1
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 单市场债券ETF and 时间 is 当日 and 操作 is 竞价买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.2
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 单市场债券ETF and 时间 is 当日 and 操作 is 大宗买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.3
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 跨市场债券ETF and 时间 is 当日 and 操作 is 竞价买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.4
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 跨市场债券ETF and 时间 is 当日 and 操作 is 大宗买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.5
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 黄金ETF and 时间 is 当日 and 操作 is 竞价买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.6
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 黄金ETF and 时间 is 当日 and 操作 is 大宗买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.7
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 商品期货ETF and 时间 is 当日 and 操作 is 竞价买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.8
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 商品期货ETF and 时间 is 当日 and 操作 is 大宗买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.9
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 跨境ETF and 时间 is 当日 and 操作 is 竞价买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第三十九条.10
+sourceId 第三十九条
+if 操作主体 is 投资者 and 对价 is 现金 and 基金品种 is 跨境ETF and 时间 is 当日 and 操作 is 大宗买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第三十九条.1,第三十九条.2,第三十九条.3,第三十九条.4,第三十九条.5,第三十九条.6,第三十九条.7,第三十九条.8,第三十九条.9,第三十九条.10
+
+rule 第四十条.1
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 交易市场 is 深圳证券交易所
+then 时间 is 当日 and 当日竞价买入的ETF份额 and 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.2
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 交易市场 is 深圳证券交易所
+then 时间 is 当日 and 约束 is 当日大宗买入的ETF份额 and 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.3
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过本所申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 竞价卖出 and 交易方向 is 卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.4
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过本所申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.5
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过本所申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 大宗卖出 and 交易方向 is 卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.6
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过本所赎回得到的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 当日 and 操作 is 竞价卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.7
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过本所赎回得到的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 次一交易日 and 操作 is 用于申购ETF份额
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.8
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过本所赎回得到的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出
+then 时间 is 次一交易日 and 操作 is 大宗卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.9
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 竞价买入的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 用于申购ETF份额 and 交易方向 is 买入
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.10
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 大宗买入的股票 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 用于申购ETF份额 and 交易方向 is 买入
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.11
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过登记结算机构申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 交收前 and 操作 is 不卖出 and 交易方向 is 卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十条.12
+sourceId 第四十条
+if 操作主体 is 投资者 and 操作 is 交易 and 基金品种 is 跨市场股票ETF and 时间 is 当日 and 操作部分 is 通过登记结算机构申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 交收前 and 操作 is 不赎回 and 交易方向 is 卖出
+or relation:第四十条.1,第四十条.2,第四十条.3,第四十条.4,第四十条.5,第四十条.6,第四十条.7,第四十条.8,第四十条.9,第四十条.10,第四十条.11,第四十条.12
+
+rule 第四十一条.1
+sourceId 第四十一条
+if 操作主体 is 投资者 and 对价 is 上海黄金交易所现货实盘合约 and 操作 is 交易 and 时间 is 当日 and 操作部分 is 买入的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十一条.1,第四十一条.2,第四十一条.3
+
+rule 第四十一条.2
+sourceId 第四十一条
+if 操作主体 is 投资者 and 对价 is 上海黄金交易所现货实盘合约 and 操作 is 交易 and 时间 is 当日 and 操作部分 is 申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十一条.1,第四十一条.2,第四十一条.3
+
+rule 第四十一条.3
+sourceId 第四十一条
+if 操作主体 is 投资者 and 对价 is 上海黄金交易所现货实盘合约 and 操作 is 交易 and 时间 is 当日 and 操作部分 is 申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 时间 is 当日 and 操作 is 竞价卖出 and 交易方向 is 卖出
+or relation:第四十一条.1,第四十一条.2,第四十一条.3
+
+rule 第四十一条.4
+sourceId 第四十一条
+if 操作主体 is 投资者 and 对价 is 上海黄金交易所现货实盘合约 and 操作 is 交易 and 时间 is 当日 and 操作部分 is 申购的ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 时间 is 次一交易日 and 操作 is 大宗卖出 and 交易方向 is 卖出
+or relation:第四十一条.1,第四十一条.2,第四十一条.3
+
+rule 第四十一条.5.1
+sourceId 第四十一条
+if 操作部分 is 以上海黄金交易所现货实盘合约为对价申赎黄金ETF and 操作主体 is 投资者 and 操作 is 交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入 and 交易品种 is 证券
+then 约束 is 上海黄金交易所 and 操作 is 办理
+or relation:第四十一条.1,第四十一条.2,第四十一条.3
+
+rule 第四十一条.5.2
+sourceId 第四十一条
+if 操作部分 is 以上海黄金交易所现货实盘合约为对价申赎黄金ETF and 操作主体 is 投资者 and 操作 is 交易 and 交易市场 is 深圳证券交易所 and 交易方向 is 卖出 and 交易品种 is 证券
+then 约束 is 上海黄金交易所 and 操作 is 办理
+or relation:第四十一条.1,第四十一条.2,第四十一条.3
+
+rule 第四十二条.1
+sourceId 第四十二条
+if 操作主体 is 投资者 and 基金品种 is 货币ETF and 时间 is 当日 and 操作 is 竞价买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十二条.1,第四十二条.2,第四十二条.3,第四十二条.4
+
+rule 第四十二条.2
+sourceId 第四十二条
+if 操作主体 is 投资者 and 基金品种 is 货币ETF and 时间 is 当日 and 操作 is 大宗买入 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十二条.1,第四十二条.2,第四十二条.3,第四十二条.4
+
+rule 第四十二条.3
+sourceId 第四十二条
+if 操作主体 is 投资者 and 基金品种 is 货币ETF and 时间 is 当日 and 操作 is 申购 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十二条.1,第四十二条.2,第四十二条.3,第四十二条.4
+
+rule 第四十二条.4
+sourceId 第四十二条
+if 操作主体 is 投资者 and 基金品种 is 货币ETF and 时间 is 当日 and 操作 is 申购 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 当日 and 操作 is 竞价卖出 and 交易方向 is 卖出
+or relation:第四十二条.1,第四十二条.2,第四十二条.3,第四十二条.4
+
+rule 第四十二条.5
+sourceId 第四十二条
+if 操作主体 is 投资者 and 基金品种 is 货币ETF and 时间 is 当日 and 操作 is 申购 and 基金品种 is ETF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 大宗卖出 and 交易方向 is 卖出
+or relation:第四十二条.1,第四十二条.2,第四十二条.3,第四十二条.4
+
+rule 第四十三条.1
+sourceId 第四十三条
+if 操作主体 is 投资者 and 基金品种 is LOF and 时间 is 当日 and 操作 is 买入 and 基金品种 is LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 次一交易日 and 操作 is 赎回 and 交易方向 is 卖出
+or relation:第四十三条.1,第四十三条.2,第四十三条.3
+
+rule 第四十三条.2
+sourceId 第四十三条
+if 操作主体 is 投资者 and 基金品种 is LOF and 时间 is 当日 and 操作 is 申购 and 基金品种 is LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 交收前 and 操作 is 不卖出 and 交易方向 is 卖出
+or relation:第四十三条.1,第四十三条.2,第四十三条.3
+
+rule 第四十三条.3
+sourceId 第四十三条
+if 操作主体 is 投资者 and 基金品种 is LOF and 时间 is 当日 and 操作 is 申购 and 基金品种 is LOF份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 交收前 and 操作 is 不赎回 and 交易方向 is 卖出
+or relation:第四十三条.1,第四十三条.2,第四十三条.3
+
+rule 第四十四条.1
+sourceId 第四十四条
+if 操作主体 is 投资者 and 时间 is 当日 and 操作 is 申购 and 基金品种 is 挂牌申赎开放式基金份额 and 交易市场 is 深圳证券交易所 and 交易方向 is 买入
+then 时间 is 交收前 and 操作 is 不赎回 and 交易方向 is 卖出

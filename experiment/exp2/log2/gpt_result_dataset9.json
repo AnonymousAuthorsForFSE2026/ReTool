@@ -1,0 +1,8 @@
+{
+    "testcase_reuse_precision": 0.2781954887218045,
+    "testcase_reuse_recall": 0.8604651162790697,
+    "testcase_reuse_f1": 0.4204545454545454,
+    "scenario_reuse_precision": 0.7142857142857143,
+    "scenario_reuse_recall": 0.8333333333333334,
+    "scenario_reuse_f1": 0.7692307692307692
+}

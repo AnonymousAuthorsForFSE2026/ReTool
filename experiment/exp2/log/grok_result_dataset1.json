@@ -1,0 +1,30 @@
+{
+    "dataset11": {
+        "testcase_reuse_rate_precision": 0.0,
+        "testcase_reuse_rate_recall": 0.0,
+        "testcase_reuse_rate_f1": 0,
+        "testcase_max_reuse_rate_precision": 0.08108108108108109,
+        "testcase_max_reuse_rate_recall": 0.037037037037037035,
+        "testcase_max_reuse_rate_f1": 0.05084745762711864,
+        "scenario_reuse_rate_precision": 0.0,
+        "scenario_reuse_rate_recall": 0.0,
+        "scenario_reuse_rate_f1": 0,
+        "scenario_max_reuse_rate_precision": 0.2553191489361702,
+        "scenario_max_reuse_rate_recall": 0.11650485436893204,
+        "scenario_max_reuse_rate_f1": 0.16
+    },
+    "dataset1": {
+        "testcase_reuse_rate_precision": 0.028169014084507043,
+        "testcase_reuse_rate_recall": 0.0031496062992125984,
+        "testcase_reuse_rate_f1": 0.005665722379603399,
+        "testcase_max_reuse_rate_precision": 1.9859154929577465,
+        "testcase_max_reuse_rate_recall": 0.2220472440944882,
+        "testcase_max_reuse_rate_f1": 0.3994334277620397,
+        "scenario_reuse_rate_precision": 0.0,
+        "scenario_reuse_rate_recall": 0.0,
+        "scenario_reuse_rate_f1": 0,
+        "scenario_max_reuse_rate_precision": 3.7142857142857144,
+        "scenario_max_reuse_rate_recall": 0.3076923076923077,
+        "scenario_max_reuse_rate_f1": 0.5683060109289618
+    }
+}

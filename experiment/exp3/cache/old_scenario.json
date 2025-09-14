@@ -1,0 +1,3527 @@
+{
+    "9.1.1": {
+        "rule_class": [
+            "9"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "买卖"
+            },
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "交易品种",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易品种",
+                "operation": "is"
+            },
+            {
+                "key": "约束",
+                "value": "is",
+                "operation": "操作"
+            }
+        ]
+    },
+    "9.1.2": {
+        "rule_class": [
+            "9"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "买卖"
+            },
+            {
+                "key": "交易方式",
+                "operation": "is",
+                "value": "买卖"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "交易品种",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "交易品种",
+                "operation": "is"
+            },
+            {
+                "key": "约束",
+                "value": "is",
+                "operation": "操作"
+            }
+        ]
+    },
+    "10.1.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.1.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.2.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.2.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.3.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "成行呼值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成行呼值相互间的顺序为相同顺序",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.3.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "成行呼值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "成行呼值相互间的顺序为相同顺序",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.4.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.4.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.5.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.5.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.6.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.6.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.7.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.7.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.8.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.8.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.9.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.9.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.10.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.10.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.11.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.11.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.12.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.12.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.13.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.13.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.14.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.14.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.15.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.15.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.16.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.16.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.17.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.17.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.18.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.18.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.19.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.19.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.20.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.20.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.21.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.21.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.22.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.22.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.23.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.23.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.24.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.24.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.25.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.25.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.26.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.26.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.27.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.27.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低价的买价",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.28.1": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低",
+                "operation": "is"
+            }
+        ]
+    },
+    "10.28.2": {
+        "rule_class": [
+            "10"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖委员会"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "开始"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "is约定价格确定之前"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "进行"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "低价的卖价优先于高价的卖价",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "高价的买价优先于低",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "认购权"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "单位"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "面值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "每100日元1分钱"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "可转换",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "company债券型新股",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "面值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "每100日元5分钱",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.2.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.2.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.3.1": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "14.3.2": {
+        "rule_class": [
+            "14"
+        ],
+        "constraints": [
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "呼值"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "不受"
+            },
+            {
+                "key": "操作部分",
+                "operation": "is",
+                "value": "价宽限度"
+            },
+            {
+                "key": "操作",
+                "operation": "is",
+                "value": "且"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            },
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "不受",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "价宽限度",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "且",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.1.1": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖单位"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "买入"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "面值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "1000万日元、100万日元或10万日元",
+                "operation": "is"
+            }
+        ]
+    },
+    "15.1.2": {
+        "rule_class": [
+            "15"
+        ],
+        "constraints": [
+            {
+                "key": "交易品种",
+                "operation": "is",
+                "value": "债券"
+            },
+            {
+                "key": "操作主体",
+                "operation": "is",
+                "value": "买卖单位"
+            },
+            {
+                "key": "交易市场",
+                "operation": "is",
+                "value": "东京证券交易所"
+            },
+            {
+                "key": "交易方向",
+                "operation": "is",
+                "value": "卖出"
+            }
+        ],
+        "results": [
+            {
+                "key": "操作",
+                "value": "买卖",
+                "operation": "is"
+            },
+            {
+                "key": "操作部分",
+                "value": "面值",
+                "operation": "is"
+            },
+            {
+                "key": "操作",
+                "value": "1000万日元、100万日元或10万日元",
+                "operation": "is"
+            }
+        ]
+    }
+}

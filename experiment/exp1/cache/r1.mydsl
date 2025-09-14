@@ -1,0 +1,341 @@
+rule 第二节.1
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约
+then 交易单位 is 清算公司根据清算公司规则以及纳斯达克与清算公司达成的协议为该系列设立的交易单位
+
+rule 第二节.2
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is 除(c)款规定外
+then 操作部分 is 订单 and 交易单位 is 每单位标的证券的美元数额
+
+rule 第二节.3
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定
+then 操作部分 is 订单 and 交易单位 is 构成该调整交易单位的总证券和/或其他财产的每1/100美元
+
+rule 第二节.4
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 500美元
+
+rule 第二节.5
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 550美元
+
+rule 第二节.6
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 300美元
+
+rule 第二节.7
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.8
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.9
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.10
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.11
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.12
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.13
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.14
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.15
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.16
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.17
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.18
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.19
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.20
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.21
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.22
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.23
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.24
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.25
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.26
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.27
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.28
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.29
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.30
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.31
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.32
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.33
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.34
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM and 交易品种 is 期权合约 and 约束 is (c)款规定 and 买入价 is “5”
+then 交易单位 is 325美元
+
+rule 第二节.35
+sourceId 第二节
+if 操作主体 is 交易单位 and 操作对象 is NOM
+
+rule 第十九条.1
+sourceId 第十九条
+if 操作主体 is 批量取消交易权益期权参与者
+then 操作 is 请求 and 操作部分 is NOM市场运营人员 and 操作部分 is 期权参与者的指示 and 操作 is 执宅 and 操作部分 is 取消操作 and 操作部分 is 任何系列期权中的任何买入、卖出和订单
+
+rule 1001.1
+sourceId 1001
+if rule 2 is and 约束 is 减去， and 操作部分 is 该期权系列的理论价格 and 操作 is 确定并 and 操作部分 is 错误卖出交易中相关交易前最后一个NBB and 操作部分 is 错误买入交易中相关交易前最后一个NBO and 约束 is 如果适用的期权系列至少在一家其他期权交易所交易 and 操作主体 is 交易所 and 操作部分 is 理论价格 and 操作部分 is 交易所收到订单前的最后一个NBB和最后一个NBO and 操作 is 确定 and 时间 is 开盘交易 and 约束 is 如果在错误交易发生前，受影响的系列没有NBB或NBO，或者错误交易发生前NBB和NBO的买卖价差等于或大于下文(b)(3)子条款中图表规定的最低金额 and 约束 is 如果买卖价差低于最低金额，则理论价格为错误交易发生前的NBB或NBO and 时间 is 无有效报价 and 约束 is 无效报价 and 操作 is 发布 and 操作部分 is 适用期权系列中的所有报价 and 约束 is 在最后一个NBB高于该系列中最后一个NBO时 and 操作部分 is 由相关交易的任何一方提交的报价 and 操作部分 is 如果相关交易的任何一方提交了代表该期权交易所最佳买入价或卖出价的系列报价，则交易所将仅考虑其他期权交易所的报价，且该报价最多可包含二十五（25）个期权系列，且该方向交易所指明了由该方提交并由其他期权交易所发布的报价 and 操作部分 is 其他期权交易所发布的、该交易所已宣布自助的报价 and 约束 is 如果在错误交易发生前，受影响系列的NBB和NBO的买卖价差等于或大于下述最低金额，且在交易发生前10秒内，买卖价差低于最低金额，则交易所将确定理论价格.如果在交易发生前10秒内，不存在低于最低金额的买卖价差，则该期权系列的理论价格为该交易发生前最后一个NBB或NBO，如上文（b）段所述.交易时的买入价最低金额低于2.00美元0.75美元
+
+rule 2.00.1
+sourceId 2.00
+if
+then 最低申报数量 is 至5.00美元1.25美元
+
+rule 5.00.1
+sourceId 5.00
+if
+then 约束 is 美元以上至10.00美元1.50美元
+
+rule 10.00.1
+sourceId 10.00
+if 约束 is 美元以上至20.00美元
+then 约束 is 美元 and 金额 is 2.50美元
+
+rule 20.00.1
+sourceId 20.00
+if
+then 约束 is 美元以上至50.00美元 and 约束 is 3.00美元
+
+rule 50.00.1
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 事件 is 在客户错误交易之前 and 交易品种 is 受影响系列的NBB和NBO的买卖差价 and 事件 is 等于或大于 and 约束 is 上述（A）段规定的最低金额 and 时间 is 交易前10秒内 and 事件 is 买卖差价低于最低金额
+then 操作 is 确定 and 操作部分 is 理论价格
+
+rule 50.00.2
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 交易前10秒内 and 事件 is 不存在 and 约束 is 低于最低金额的买卖差价
+then 操作主体 is 交易所 and 操作 is 确定 and 操作部分 is 理论价格 and 前提 is 客户错误交易之前受影响系列的NBB和NBO的买卖差价 and 等于或大于 is 上述第(A)段规定的最低金额 and 时间 is 在开盘或重新开盘后10秒内 and 事件 is 任何时候都有 and 约束 is 低于最低金额的买卖差价
+
+rule 50.00.3
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.4
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.5
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.6
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.7
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.8
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.9
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.10
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.11
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.12
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.13
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.14
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.15
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有 and 约束 is 低于最低金额的买入/卖出价差
+then 操作 is 开盘 and 操作部分 is 期权系列的理论价格 and 操作对象 is 客户相关交易之前的最后一个NBB或NBO and 引用 is 上文第(b)段
+
+rule 50.00.16
+sourceId 50.00
+if 交易品种 is 美元以上至100.00美元4.50美元超过100.00美元6.00美元（B）开业或重新开业后10秒或更短时间内发生的客户交易 and 时间 is 开盘或重新开盘后10秒内 and 事件 is 没有
+
+rule 2.00.1
+sourceId 2.00
+if
+then 最低申报数量 is 至5.00美元0.40美元
+
+rule 5.00.1
+sourceId 5.00
+if
+then 约束 is 美元以上至10.00美元 and 约束 is 0.50美元
+
+rule 10.00.1
+sourceId 10.00
+if 约束 is 美元以上至20.00美元
+then 最低申报数量 is 0.80美元
+
+rule 20.00.1
+sourceId 20.00
+if 交易品种 is 美元
+then 约束 is 至50.00美元 and 操作部分 is 1.00美元
+
+rule 2.00.1
+sourceId 2.00
+if
+then 最低申报数量 is 至5.00美元1.00美元
+
+rule 5.00.1
+sourceId 5.00
+if
+then 约束 is 美元以上至10.00美元1.50美元
+
+rule 10.00.1
+sourceId 10.00
+if 约束 is 美元以上至20.00美元
+then 约束 is 美元20.00美元 and 操作部分 is 2.00美元
+
+rule 20.00.1
+sourceId 20.00
+if 约束 is 美元以上至50.00美元
+then 收费 is 2.50美元
+
+rule 2.00.1
+sourceId 2.00
+if
+then
+
+rule 5.00.1
+sourceId 5.00
+if
+then
+
+rule 10.00.1
+sourceId 10.00
+if 约束 is 美元以上至20.00美元
+then 约束 is 2.00美元
+
+rule 20.00.1
+sourceId 20.00
+if
+then 约束 is 美元以上至50.00美元 and 约束 is 2.50美元
